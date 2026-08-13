@@ -1,0 +1,14 @@
+{
+  "release_id": "governance-security-expanded-2026-07-30-r2",
+  "chunk_count": 4782,
+  "word_count": {
+    "min": 35,
+    "median": 199.0,
+    "p95": 220,
+    "max": 357
+  },
+  "fragment_count": 0,
+  "unsafe_text_count": 0,
+  "sectioned_chunk_count": 4782,
+  "status": "pass"
+}

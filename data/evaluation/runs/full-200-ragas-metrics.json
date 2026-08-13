@@ -1,0 +1,27 @@
+{
+  "case_count": 200,
+  "faithfulness": 0.9218352184644318,
+  "citation_validity": 1.0,
+  "answer_correctness": 0.46539438349445095,
+  "abstention_f1": 0.9523809523809523,
+  "diagnostics": {
+    "status": "ragas",
+    "responses": "data/evaluation/runs/full-200-responses.jsonl",
+    "failure_stages": {
+      "chunking": 0,
+      "citation_validation": 2,
+      "generation": 0,
+      "ingestion": 0,
+      "judge_config": 0,
+      "provider": 0,
+      "reranking": 0,
+      "retrieval": 0
+    },
+    "faithfulness_case_count": 178,
+    "answer_correctness_case_count": 180,
+    "judge": {
+      "provider": "gemini_openai_compatible",
+      "model": "gemini-3.1-flash-lite"
+    }
+  }
+}

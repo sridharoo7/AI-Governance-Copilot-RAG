@@ -1,0 +1,31 @@
+release:
+  corpus_release_id: governance-security-expanded-2026-07-30-r2
+  language: en
+chunking:
+  # R2 uses complete-sentence child chunks. These values are words, matching ingestion.py.
+  child_target_words: 220
+  overlap_words: 35
+retrieval:
+  vector_store: weaviate
+  collection: GovernanceChunk
+  hybrid_alpha: 0.55
+  candidate_limit: 30
+  final_context_limit: 6
+  max_vector_distance: 0.45
+models:
+  # Ollama hosts one reusable local embedding service for this and future projects.
+  embedding: bge-m3
+  reranker_primary: cohere-rerank-v3.5
+  reranker_fallback: BAAI/bge-reranker-v2-m3
+  grounding_verifier: cross-encoder/nli-deberta-v3-base
+evaluation:
+  # Faithfulness can need a structured verdict for several claims and long retrieved excerpts.
+  # The Ragas default of 1,024 tokens caused a real Gemini incomplete-output failure.
+  judge_max_tokens: 4096
+  free_tier_score_delay_seconds: 12
+quality_gate:
+  faithfulness_min: 0.95
+  citation_validity_min: 1.0
+  answer_correctness_min: 0.85
+  abstention_f1_min: 0.90
+  max_regression: 0.02

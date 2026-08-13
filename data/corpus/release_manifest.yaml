@@ -1,0 +1,25 @@
+release_id: governance-2026-07-23-r1
+approved_at: "2026-07-23"
+language: en
+sources:
+  - source_id: nist-ai-rmf-1-0
+    title: NIST AI Risk Management Framework 1.0
+    url: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+    license: Public domain (U.S. government work)
+    version: "1.0"
+    sha256: 7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1
+    local_path: data/corpus/sources/nist-ai-100-1.pdf
+  - source_id: nist-airc
+    title: NIST AI RMF Generative AI Profile
+    url: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf
+    license: Public domain (U.S. government work)
+    version: "NIST AI 600-1"
+    sha256: 6e73620ab6b64e90ef2c04bf0e0d6246185a2f4b1b13cab0df494496cff89b6a
+    local_path: data/corpus/sources/nist-ai-600-1.pdf
+  - source_id: owasp-genai
+    title: OWASP GenAI Security Project
+    url: https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-v2025.pdf
+    license: CC BY-SA 4.0
+    version: "2025"
+    sha256: d8596f2c6b3384081574d392619ee3e9065c4f86e5b1fed1bb56be78de2ce382
+    local_path: data/corpus/sources/owasp-llm-top-10-2025.pdf

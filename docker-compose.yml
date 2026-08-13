@@ -1,0 +1,35 @@
+services:
+  weaviate:
+    image: cr.weaviate.io/semitechnologies/weaviate:1.28.2
+    ports: ["8080:8080", "50051:50051"]
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+      PERSISTENCE_DATA_PATH: /var/lib/weaviate
+      DEFAULT_VECTORIZER_MODULE: none
+      CLUSTER_HOSTNAME: node1
+    volumes: [weaviate_data:/var/lib/weaviate]
+  api:
+    build: .
+    command: uvicorn rag_copilot.api:app --host 0.0.0.0 --port 8000
+    environment:
+      WEAVIATE_URL: ${WEAVIATE_URL:-http://weaviate:8080}
+      WEAVIATE_GRPC_URL: ${WEAVIATE_GRPC_URL:-weaviate:50051}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-bge-m3}
+      OMNIROUTE_BASE_URL: ${OMNIROUTE_BASE_URL:-http://host.docker.internal:20128/v1}
+      OMNIROUTE_API_KEY: ${OMNIROUTE_API_KEY:-}
+      DIRECT_LLM_BASE_URL: ${DIRECT_LLM_BASE_URL:-}
+      DIRECT_LLM_API_KEY: ${DIRECT_LLM_API_KEY:-}
+      RAG_MODEL: ${RAG_MODEL:-auto}
+      COHERE_API_KEY: ${COHERE_API_KEY:-}
+      CORPUS_RELEASE_ID: ${CORPUS_RELEASE_ID:-governance-security-expanded-2026-07-30-r2}
+    ports: ["8000:8000"]
+    depends_on: [weaviate]
+  web:
+    build: ./web
+    environment: [NEXT_PUBLIC_API_URL=http://localhost:8000]
+    ports: ["3000:3000"]
+    depends_on: [api]
+volumes:
+  weaviate_data:

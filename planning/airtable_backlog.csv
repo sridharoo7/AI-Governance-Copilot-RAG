@@ -1,0 +1,16 @@
+ID,Title,Epic,Status,Priority,Estimate,Dependencies,Acceptance criteria
+RAG-001,Create repository configuration and quality contracts,Foundation,Done,High,3,None,Versioned prompts and retrieval config load with tests
+RAG-002,Create approved corpus release manifest,Ingestion,Done,High,3,RAG-001,Manifest records URL license version checksum and release ID
+RAG-003,Implement semantic parent-child chunker,Ingestion,Review,High,5,RAG-002,Chunks preserve section page parent and source metadata
+RAG-004,Implement embedding and Weaviate indexing,Retrieval,Review,High,5,RAG-003,Active release is filterable and queryable
+RAG-005,Implement native hybrid retrieval,Retrieval,Review,High,5,RAG-004,Thirty dense BM25 candidates return score explanations
+RAG-006,Implement Cohere and local reranker adapters,Reranking,Review,High,5,RAG-005,Top six reranked chunks are retained with diagnostics
+RAG-007,Implement structured citation enforcement,Grounding,Review,Critical,5,RAG-006,Unsupported claims and invalid spans abstain
+RAG-008,Implement FastAPI contracts,API,Review,High,5,RAG-007,Query health ingest and trace endpoints documented
+RAG-009,Integrate OmniRoute provider adapter,API,Review,Medium,3,RAG-008,Gateway health failure selects safe direct fallback
+RAG-010,Build citation-aware React UI,UI,Review,Medium,5,RAG-008,UI renders answer source excerpt and abstention state
+RAG-011,Build 200-case benchmark and PDF,Evaluation,Done,High,5,RAG-002,Dataset has exact approved category distribution
+RAG-012,Implement Ragas evaluation and diagnostics,Evaluation,Review,Critical,5,RAG-011,Machine-readable result classifies failure domain
+RAG-013,Add GitHub Actions quality gate,CI,Review,High,3,RAG-012,PR and scheduled CI fail below thresholds
+RAG-014,Create Docker Compose stack,Deployment,Review,High,3,RAG-008,API UI and Weaviate start with documented command
+RAG-015,Create architecture documentation and leadership deck,Documentation,Done,Medium,5,RAG-014,Documentation and deck match deployed architecture

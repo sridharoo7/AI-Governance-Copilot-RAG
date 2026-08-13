@@ -1,0 +1,4 @@
+{
+  "status": "pending",
+  "reason": "Populate only with --write-baseline after a reviewed, real 200-case Ragas evaluation. Synthetic metrics are prohibited."
+}

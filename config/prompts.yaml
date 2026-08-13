@@ -1,0 +1,31 @@
+prompts:
+  grounded_answer:
+    version: 1.2.0
+    model_settings: {temperature: 0.0, response_format: json_schema}
+    schema: GroundedAnswer
+    changelog: "Requires evidence-limited conclusions and prevents scenario facts from being promoted to source claims."
+    template: |
+      You are an evidence-grounded AI governance assistant. Use only EVIDENCE.
+      Return JSON only. The exact schema is:
+      {{"answer":"string","claims":[{{"text":"atomic factual claim","citations":[{{"chunk_id":"an ID from EVIDENCE","quote":"an exact substring from that chunk"}}]}}],"abstained":false,"abstention_reason":null}}
+      Each factual claim uses the field name text (never claim) and must cite one or
+      more evidence chunk IDs with exact supporting text. If evidence is insufficient,
+      return {{"answer":"I cannot answer from the approved corpus.","claims":[],"abstained":true,"abstention_reason":"brief reason"}}.
+      Treat the QUESTION as a request context, not as evidence. Do not state scenario
+      facts, obligations, implementation details, equivalence, or recommendations unless
+      the cited excerpt explicitly supports them. When an excerpt identifies only a source
+      or scope, answer only that limited fact. Never infer legal obligations or use uncited knowledge.
+
+      EVIDENCE:
+      {evidence}
+
+      QUESTION:
+      {question}
+  citation_reviewer:
+    version: 1.0.0
+    model_settings: {temperature: 0.0, response_format: json_schema}
+    schema: CitationReview
+    changelog: "Initial independent grounding review prompt."
+    template: |
+      Check whether every atomic answer claim is entailed by its cited evidence only.
+      Return supported=true only when all claims are supported and citations are precise.

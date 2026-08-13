@@ -1,0 +1,2003 @@
+# Expanded adversarial RAG benchmark (200 cases)
+
+Grounded in the qualified 10-document, 2,677-page frozen corpus.
+
+## EXP-001 - direct_control
+
+For control-review record DC-001, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning 'of organizations.2 Security controls are the safeguards or countermeasures employed within a'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.28] of organizations.2 Security controls are the safeguards or countermeasures employed within a system or an organization to protect the confidentiality, integrity, and availability of the system and its information and to manage information security3 risk.
+
+**Gold chunks:** nist-sp-800-53r5-p28-e9634c4bd412
+
+**Evidence excerpts:** of organizations.2 Security controls are the safeguards or countermeasures employed within a system or an organization to protect the confidentiality, integrity, and availability of the system and its information and to manage information security3 risk.
+
+## EXP-002 - direct_control
+
+For control-review record DC-002, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning 'PREPARE FOR SECURITY AND PRIVACY CONTROL ASSESSMENTS SUMMARY Purpose Address a range'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.30] PREPARE FOR SECURITY AND PRIVACY CONTROL ASSESSMENTS SUMMARY Purpose Address a range of issues pertaining to the cost, schedule, scope, and performance of the control assessment.
+
+**Gold chunks:** nist-sp-800-53ar5-p30-cd61311962dc
+
+**Evidence excerpts:** PREPARE FOR SECURITY AND PRIVACY CONTROL ASSESSMENTS SUMMARY Purpose Address a range of issues pertaining to the cost, schedule, scope, and performance of the control assessment.
+
+## EXP-003 - direct_control
+
+For control-review record DC-003, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning 'the strategic vision and top-level goals and objectives for the organization, to'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.25] the strategic vision and top-level goals and objectives for the organization, to mid-level leaders planning, executing, and managing projects, to individuals developing, implementing, operating, and maintaining the systems supporting the organization’s missions and business functions.
+
+**Gold chunks:** nist-sp-800-37r2-p25-833ae60d4dec
+
+**Evidence excerpts:** the strategic vision and top-level goals and objectives for the organization, to mid-level leaders planning, executing, and managing projects, to individuals developing, implementing, operating, and maintaining the systems supporting the organization’s missions and business functions.
+
+## EXP-004 - direct_control
+
+For control-review record DC-004, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning 'Figure 3 illustrates the relationship between the system of interest and its'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.25] Figure 3 illustrates the relationship between the system of interest and its interfacing systems in both operational and non-operational (external) environments.
+
+**Gold chunks:** nist-sp-800-160v1r1-p25-dc3bddc8e45f
+
+**Evidence excerpts:** Figure 3 illustrates the relationship between the system of interest and its interfacing systems in both operational and non-operational (external) environments.
+
+## EXP-005 - direct_control
+
+For control-review record DC-005, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'Application: Used in engineering analysis to screen technologies, practices, products, controls, solutions,'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.25] Application: Used in engineering analysis to screen technologies, practices, products, controls, solutions, or requirements; used in the system by implementing or integrating technologies, practices, products, or solutions.
+
+**Gold chunks:** nist-sp-800-160v2r1-p25-69253ccc6368
+
+**Evidence excerpts:** Application: Used in engineering analysis to screen technologies, practices, products, controls, solutions, or requirements; used in the system by implementing or integrating technologies, practices, products, or solutions.
+
+## EXP-006 - direct_control
+
+For control-review record DC-006, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning 'are built on existing multidisciplinary practices and are intended to increase the'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.25] are built on existing multidisciplinary practices and are intended to increase the ability of enterprises to manage the associated cybersecurity risks throughout the supply chain over the entire life cycle of systems, products, and services.
+
+**Gold chunks:** nist-sp-800-161r1-p25-6808b356169b
+
+**Evidence excerpts:** are built on existing multidisciplinary practices and are intended to increase the ability of enterprises to manage the associated cybersecurity risks throughout the supply chain over the entire life cycle of systems, products, and services.
+
+## EXP-007 - direct_control
+
+For control-review record DC-007, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'Routing remote access through managed access control points enhances explicit control over'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.25] Routing remote access through managed access control points enhances explicit control over such connections and reduces susceptibility to unauthorized access to the system, which could result in the unauthorized disclosure of CUI.
+
+**Gold chunks:** nist-sp-800-171r3-p25-4c3d2c11766a
+
+**Evidence excerpts:** Routing remote access through managed access control points enhances explicit control over such connections and reduces susceptibility to unauthorized access to the system, which could result in the unauthorized disclosure of CUI.
+
+## EXP-008 - direct_control
+
+For control-review record DC-008, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning '2.3.4 Effects of Organizational Culture on Risk Assessments Organizations can differ in'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] 2.3.4 Effects of Organizational Culture on Risk Assessments Organizations can differ in the risk models, assessment approaches, and analysis approaches that they prefer for a variety of reasons.
+
+**Gold chunks:** nist-sp-800-30r1-p25-33e01bf36d67
+
+**Evidence excerpts:** 2.3.4 Effects of Organizational Culture on Risk Assessments Organizations can differ in the risk models, assessment approaches, and analysis approaches that they prefer for a variety of reasons.
+
+## EXP-009 - direct_control
+
+For control-review record DC-009, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning 'of an authorizing official to coordinate and conduct the required day-to-day activities'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.25] of an authorizing official to coordinate and conduct the required day-to-day activities associated by the security authorization process.
+
+**Gold chunks:** nist-sp-800-12r1-p25-46416c32b117
+
+**Evidence excerpts:** of an authorizing official to coordinate and conduct the required day-to-day activities associated by the security authorization process.
+
+## EXP-010 - direct_control
+
+For control-review record DC-010, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'Performing the Forensic Process The most common goal of performing forensics is'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] Performing the Forensic Process The most common goal of performing forensics is to gain a better understanding of an event of interest by finding and analyzing the facts related to that event.
+
+**Gold chunks:** nist-sp-800-86-p25-9eb650ea1092
+
+**Evidence excerpts:** Performing the Forensic Process The most common goal of performing forensics is to gain a better understanding of an event of interest by finding and analyzing the facts related to that event.
+
+## EXP-011 - direct_control
+
+For control-review record DC-011, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning 'The selection, design, and implementation of security and privacy controls5 are important'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.28] The selection, design, and implementation of security and privacy controls5 are important tasks that have significant implications for the operations6 and assets of organizations as well as the welfare of individuals and the Nation.
+
+**Gold chunks:** nist-sp-800-53r5-p28-47c08f7e5b6a
+
+**Evidence excerpts:** The selection, design, and implementation of security and privacy controls5 are important tasks that have significant implications for the operations6 and assets of organizations as well as the welfare of individuals and the Nation.
+
+## EXP-012 - direct_control
+
+For control-review record DC-012, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning 'preparation by the organization and assessors is an important aspect of conducting'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.31] preparation by the organization and assessors is an important aspect of conducting effective security and privacy control assessments.
+
+**Gold chunks:** nist-sp-800-53ar5-p31-9fc8db8ef3d1
+
+**Evidence excerpts:** preparation by the organization and assessors is an important aspect of conducting effective security and privacy control assessments.
+
+## EXP-013 - direct_control
+
+For control-review record DC-013, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning 'using specific systems and includes activities that are essential to managing security'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.26] using specific systems and includes activities that are essential to managing security and privacy risk appropriately throughout the organization.
+
+**Gold chunks:** nist-sp-800-37r2-p26-d22c4ff47ea0
+
+**Evidence excerpts:** using specific systems and includes activities that are essential to managing security and privacy risk appropriately throughout the organization.
+
+## EXP-014 - direct_control
+
+For control-review record DC-014, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning '13 to satisfy the often-conflicting needs and priorities of stakeholders within the'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.25] 13 to satisfy the often-conflicting needs and priorities of stakeholders within the constraints of cost, schedule, 12 As noted in [11], transdisciplinary approaches reach “beyond disciplines to find and exploit connections to solve complex problems.
+
+**Gold chunks:** nist-sp-800-160v1r1-p25-2b1169b96ae1
+
+**Evidence excerpts:** 13 to satisfy the often-conflicting needs and priorities of stakeholders within the constraints of cost, schedule, 12 As noted in [11], transdisciplinary approaches reach “beyond disciplines to find and exploit connections to solve complex problems.
+
+## EXP-015 - direct_control
+
+For control-review record DC-015, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'Provide a sufficient level of cyber resiliency to meet stakeholder needs and'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.25] Provide a sufficient level of cyber resiliency to meet stakeholder needs and reduce risks to mission or business capabilities in the presence of advanced persistent threats.
+
+**Gold chunks:** nist-sp-800-160v2r1-p25-355745448bc4
+
+**Evidence excerpts:** Provide a sufficient level of cyber resiliency to meet stakeholder needs and reduce risks to mission or business capabilities in the presence of advanced persistent threats.
+
+## EXP-016 - direct_control
+
+For control-review record DC-016, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning 'the development and implementation of C-SCRM Strategies and Implementation Plans for development'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.25] the development and implementation of C-SCRM Strategies and Implementation Plans for development at the enterprise and mission and business level of an enterprise and a C-SCRM system plan at the operational level of an enterprise.
+
+**Gold chunks:** nist-sp-800-161r1-p25-b4f47d160027
+
+**Evidence excerpts:** the development and implementation of C-SCRM Strategies and Implementation Plans for development at the enterprise and mission and business level of an enterprise and a C-SCRM system plan at the operational level of an enterprise.
+
+## EXP-017 - direct_control
+
+For control-review record DC-017, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'DISCUSSION Wireless networking capabilities represent a significant potential vulnerability that can be'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.26] DISCUSSION Wireless networking capabilities represent a significant potential vulnerability that can be exploited by adversaries.
+
+**Gold chunks:** nist-sp-800-171r3-p26-79463ac0872d
+
+**Evidence excerpts:** DISCUSSION Wireless networking capabilities represent a significant potential vulnerability that can be exploited by adversaries.
+
+## EXP-018 - direct_control
+
+For control-review record DC-018, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning 'For example, organizations can use coarse or high-level risk models early in'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] For example, organizations can use coarse or high-level risk models early in the system development life cycle to select security controls, and subsequently, more detailed models to assess risk to given missions or business functions.
+
+**Gold chunks:** nist-sp-800-30r1-p25-16bfdc3f4401
+
+**Evidence excerpts:** For example, organizations can use coarse or high-level risk models early in the system development life cycle to select security controls, and subsequently, more detailed models to assess risk to given missions or business functions.
+
+## EXP-019 - direct_control
+
+For control-review record DC-019, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning 'has the overall responsibility and accountability for ensuring the agency’s implementation of'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.25] has the overall responsibility and accountability for ensuring the agency’s implementation of information privacy protections, including the agency’s full compliance with federal laws, regulations, and policies relating to information privacy, such as the Privacy Act.
+
+**Gold chunks:** nist-sp-800-12r1-p25-8fcc2dc53424
+
+**Evidence excerpts:** has the overall responsibility and accountability for ensuring the agency’s implementation of information privacy protections, including the agency’s full compliance with federal laws, regulations, and policies relating to information privacy, such as the Privacy Act.
+
+## EXP-020 - direct_control
+
+For control-review record DC-020, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'This section describes the basic phases of the forensic process: collection, examination,'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] This section describes the basic phases of the forensic process: collection, examination, analysis, and reporting.8 During collection, data related to a specific event is identified, labeled, recorded, and collected, and its integrity is preserved.
+
+**Gold chunks:** nist-sp-800-86-p25-ce03b3dfe4c8
+
+**Evidence excerpts:** This section describes the basic phases of the forensic process: collection, examination, analysis, and reporting.8 During collection, data related to a specific event is identified, labeled, recorded, and collected, and its integrity is preserved.
+
+## EXP-021 - direct_control
+
+For control-review record DC-021, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning 'well-defined risk management process that supports organizational information security and privacy programs.'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.29] well-defined risk management process that supports organizational information security and privacy programs.
+
+**Gold chunks:** nist-sp-800-53r5-p29-07fbb6eec6ec
+
+**Evidence excerpts:** well-defined risk management process that supports organizational information security and privacy programs.
+
+## EXP-022 - direct_control
+
+For control-review record DC-022, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning 'and privacy control assessments in parallel with the development/acquisition and implementation phases'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.31] and privacy control assessments in parallel with the development/acquisition and implementation phases of the life cycle allows for the early identification of weaknesses and deficiencies and provides the most cost-effective method for initiating corrective actions.
+
+**Gold chunks:** nist-sp-800-53ar5-p31-f92b9faa34c2
+
+**Evidence excerpts:** and privacy control assessments in parallel with the development/acquisition and implementation phases of the life cycle allows for the early identification of weaknesses and deficiencies and provides the most cost-effective method for initiating corrective actions.
+
+## EXP-023 - direct_control
+
+For control-review record DC-023, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning 'manage and reduce the complexity20 of systems through consolidation, optimization, and standardization;21'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.26] manage and reduce the complexity20 of systems through consolidation, optimization, and standardization;21 and • Allocation of resources to ensure the organization can conduct its missions and business operations effectively, efficiently, and in a cost-effective manner.
+
+**Gold chunks:** nist-sp-800-37r2-p26-70059f04f0b7
+
+**Evidence excerpts:** manage and reduce the complexity20 of systems through consolidation, optimization, and standardization;21 and • Allocation of resources to ensure the organization can conduct its missions and business operations effectively, efficiently, and in a cost-effective manner.
+
+## EXP-024 - direct_control
+
+For control-review record DC-024, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning 'Systems engineering is outcome-oriented and leverages engineering processes to realize a system'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] Systems engineering is outcome-oriented and leverages engineering processes to realize a system while effectively managing complexity and serving as the principal integrating mechanism for the technical, management, and support activities related to the engineering effort.
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-ad9288ae819e
+
+**Evidence excerpts:** Systems engineering is outcome-oriented and leverages engineering processes to realize a system while effectively managing complexity and serving as the principal integrating mechanism for the technical, management, and support activities related to the engineering effort.
+
+## EXP-025 - direct_control
+
+For control-review record DC-025, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'Informed preparedness involves contingency planning, including plans for mitigating and investigating threat'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.26] Informed preparedness involves contingency planning, including plans for mitigating and investigating threat events as well as for responding to discoveries of vulnerabilities or supply chain compromises.
+
+**Gold chunks:** nist-sp-800-160v2r1-p26-9d1fc6eeb0a9
+
+**Evidence excerpts:** Informed preparedness involves contingency planning, including plans for mitigating and investigating threat events as well as for responding to discoveries of vulnerabilities or supply chain compromises.
+
+## EXP-026 - direct_control
+
+For control-review record DC-026, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning 'Implementing C-SCRM in the Context of SP 800-37, Revision 2 C-SCRM activities'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.25] Implementing C-SCRM in the Context of SP 800-37, Revision 2 C-SCRM activities described in this publication are closely related to the Risk Management Framework described in [NIST SP 800-37, Rev.
+
+**Gold chunks:** nist-sp-800-161r1-p25-bc64ec4dae40
+
+**Evidence excerpts:** Implementing C-SCRM in the Context of SP 800-37, Revision 2 C-SCRM activities described in this publication are closely related to the Risk Management Framework described in [NIST SP 800-37, Rev.
+
+## EXP-027 - direct_control
+
+For control-review record DC-027, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'Implement full-device or container-based encryption to protect the confidentiality of CUI on'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.26] Implement full-device or container-based encryption to protect the confidentiality of CUI on mobile devices.
+
+**Gold chunks:** nist-sp-800-171r3-p26-d740eac3259b
+
+**Evidence excerpts:** Implement full-device or container-based encryption to protect the confidentiality of CUI on mobile devices.
+
+## EXP-028 - direct_control
+
+For control-review record DC-028, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning 'factors, a fixed assessment scale for each factor, and a fixed algorithm'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] factors, a fixed assessment scale for each factor, and a fixed algorithm for combining factors) cannot meet the diverse needs of the organizations in the public and private sectors that rely on Special Publication 800-30.
+
+**Gold chunks:** nist-sp-800-30r1-p25-14a451dd7b96
+
+**Evidence excerpts:** factors, a fixed assessment scale for each factor, and a fixed algorithm for combining factors) cannot meet the diverse needs of the organizations in the public and private sectors that rely on Special Publication 800-30.
+
+## EXP-029 - direct_control
+
+For control-review record DC-029, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning '3.10 System Owner The System Owner is an organizational official responsible for'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.26] 3.10 System Owner The System Owner is an organizational official responsible for the procurement, development, integration, modification, operation, maintenance, and disposal of a system.
+
+**Gold chunks:** nist-sp-800-12r1-p26-fa8ec2282ba8
+
+**Evidence excerpts:** 3.10 System Owner The System Owner is an organizational official responsible for the procurement, development, integration, modification, operation, maintenance, and disposal of a system.
+
+## EXP-030 - direct_control
+
+For control-review record DC-030, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'of the analysis, which may include describing the actions performed, determining what'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] of the analysis, which may include describing the actions performed, determining what other actions need to be performed, and recommending improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process.
+
+**Gold chunks:** nist-sp-800-86-p25-029408be0c54
+
+**Evidence excerpts:** of the analysis, which may include describing the actions performed, determining what other actions need to be performed, and recommending improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process.
+
+## EXP-031 - direct_control
+
+For control-review record DC-031, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning 'It accomplishes this objective by providing a comprehensive and flexible catalog of'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.29] It accomplishes this objective by providing a comprehensive and flexible catalog of security and privacy controls to meet current and future protection needs based on changing threats, vulnerabilities, requirements, and technologies.
+
+**Gold chunks:** nist-sp-800-53r5-p29-0e1699f69a50
+
+**Evidence excerpts:** It accomplishes this objective by providing a comprehensive and flexible catalog of security and privacy controls to meet current and future protection needs based on changing threats, vulnerabilities, requirements, and technologies.
+
+## EXP-032 - direct_control
+
+For control-review record DC-032, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning '• Establishing a mechanism between the organization and the assessors and/or assessment'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.32] • Establishing a mechanism between the organization and the assessors and/or assessment teams to minimize ambiguities or misunderstandings about the implementation of security and privacy controls and related weaknesses or deficiencies identified during the assessments.
+
+**Gold chunks:** nist-sp-800-53ar5-p32-be9fb63aec13
+
+**Evidence excerpts:** • Establishing a mechanism between the organization and the assessors and/or assessment teams to minimize ambiguities or misunderstandings about the implementation of security and privacy controls and related weaknesses or deficiencies identified during the assessments.
+
+## EXP-033 - direct_control
+
+For control-review record DC-033, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning '21 Enterprise architecture defines the mission, information, and the technologies necessary to'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.26] 21 Enterprise architecture defines the mission, information, and the technologies necessary to perform the mission, and transitional processes for implementing new technologies in response to changing mission needs.
+
+**Gold chunks:** nist-sp-800-37r2-p26-10fb9edbca57
+
+**Evidence excerpts:** 21 Enterprise architecture defines the mission, information, and the technologies necessary to perform the mission, and transitional processes for implementing new technologies in response to changing mission needs.
+
+## EXP-034 - direct_control
+
+For control-review record DC-034, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning 'in terms of its developmental role as part of capability acquisition, systems'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] in terms of its developmental role as part of capability acquisition, systems engineering efforts and responsibilities do not end once a system completes development and is transitioned to the operational environment for day- to-day use.
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-d57bcb2020b3
+
+**Evidence excerpts:** in terms of its developmental role as part of capability acquisition, systems engineering efforts and responsibilities do not end once a system completes development and is transitioned to the operational environment for day- to-day use.
+
+## EXP-035 - direct_control
+
+For control-review record DC-035, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'A key challenge is determining how much trust can be placed in'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.26] A key challenge is determining how much trust can be placed in restored functions and data as restoration progresses.
+
+**Gold chunks:** nist-sp-800-160v2r1-p26-f7ffac25ac57
+
+**Evidence excerpts:** A key challenge is determining how much trust can be placed in restored functions and data as restoration progresses.
+
+## EXP-036 - direct_control
+
+For control-review record DC-036, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning 'Those NIST publications include: • NIST Cybersecurity Framework (CSF) Version 1.1: Voluntary'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.26] Those NIST publications include: • NIST Cybersecurity Framework (CSF) Version 1.1: Voluntary guidance based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk.
+
+**Gold chunks:** nist-sp-800-161r1-p26-e697557302dc
+
+**Evidence excerpts:** Those NIST publications include: • NIST Cybersecurity Framework (CSF) Version 1.1: Voluntary guidance based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk.
+
+## EXP-037 - direct_control
+
+For control-review record DC-037, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'The processing, storage, and transmission capabilities of mobile devices may be comparable'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.27] The processing, storage, and transmission capabilities of mobile devices may be comparable to or a subset of notebook or desktop systems, depending on the nature and intended purpose of the device.
+
+**Gold chunks:** nist-sp-800-171r3-p27-f1277d6fa706
+
+**Evidence excerpts:** The processing, storage, and transmission capabilities of mobile devices may be comparable to or a subset of notebook or desktop systems, depending on the nature and intended purpose of the device.
+
+## EXP-038 - direct_control
+
+For control-review record DC-038, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning 'For example, during an initial risk assessment performed when an information system'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] For example, during an initial risk assessment performed when an information system is first being considered, the information available about threats and vulnerabilities may be nonspecific and highly uncertain.
+
+**Gold chunks:** nist-sp-800-30r1-p25-cc065de3b6a6
+
+**Evidence excerpts:** For example, during an initial risk assessment performed when an information system is first being considered, the information available about threats and vulnerabilities may be nonspecific and highly uncertain.
+
+## EXP-039 - direct_control
+
+For control-review record DC-039, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning '3.11 System Security Officer (SSO) The System Security Officer is responsible for'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.26] 3.11 System Security Officer (SSO) The System Security Officer is responsible for ensuring that an appropriate operational security posture is maintained for a system and as such, works in close collaboration with the system owner.
+
+**Gold chunks:** nist-sp-800-12r1-p26-f70d341418f7
+
+**Evidence excerpts:** 3.11 System Security Officer (SSO) The System Security Officer is responsible for ensuring that an appropriate operational security posture is maintained for a system and as such, works in close collaboration with the system owner.
+
+## EXP-040 - direct_control
+
+For control-review record DC-040, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'many other forensic process models that reflect the same basic principles and'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] many other forensic process models that reflect the same basic principles and overall methodology.
+
+**Gold chunks:** nist-sp-800-86-p25-d4db7e97fd86
+
+**Evidence excerpts:** many other forensic process models that reflect the same basic principles and overall methodology.
+
+## EXP-041 - direct_control
+
+For control-review record DC-041, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning '11 Information systems that have been designated as national security systems, as'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.29] 11 Information systems that have been designated as national security systems, as defined in 44 U.S.C., Section 3542, are not subject to the requirements in [FISMA].
+
+**Gold chunks:** nist-sp-800-53r5-p29-db9d3a6e1a15
+
+**Evidence excerpts:** 11 Information systems that have been designated as national security systems, as defined in 44 U.S.C., Section 3542, are not subject to the requirements in [FISMA].
+
+## EXP-042 - direct_control
+
+For control-review record DC-042, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning 'Obtaining previous assessment results that may be appropriately reused for the current'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.32] Obtaining previous assessment results that may be appropriately reused for the current assessment (e.g., Inspector General reports, audits, vulnerability scans, physical security inspections, developmental testing and evaluation, vendor flaw remediation activities, [ISO 15408 ] evaluations).
+
+**Gold chunks:** nist-sp-800-53ar5-p32-0fd9ca5b514d
+
+**Evidence excerpts:** Obtaining previous assessment results that may be appropriately reused for the current assessment (e.g., Inspector General reports, audits, vulnerability scans, physical security inspections, developmental testing and evaluation, vendor flaw remediation activities, [ISO 15408 ] evaluations).
+
+## EXP-043 - direct_control
+
+For control-review record DC-043, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning 'is guided and informed by the risk decisions at the organization and'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.27] is guided and informed by the risk decisions at the organization and mission/business process levels.
+
+**Gold chunks:** nist-sp-800-37r2-p27-dd9ef41915ed
+
+**Evidence excerpts:** is guided and informed by the risk decisions at the organization and mission/business process levels.
+
+## EXP-044 - direct_control
+
+For control-review record DC-044, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning 'Trust and Trustworthiness The concepts of trust and trustworthiness are foundational to'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] Trust and Trustworthiness The concepts of trust and trustworthiness are foundational to engineering trustworthy secure systems, to the decisions made to grant trust, and to the extent that trust is granted based on demonstrated trustworthiness.
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-8c5cbb5f583b
+
+**Evidence excerpts:** Trust and Trustworthiness The concepts of trust and trustworthiness are foundational to engineering trustworthy secure systems, to the decisions made to grant trust, and to the extent that trust is granted based on demonstrated trustworthiness.
+
+## EXP-045 - direct_control
+
+For control-review record DC-045, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'Changes in the technical environment can include emerging technologies (e.g., artificial intelligence,'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.26] Changes in the technical environment can include emerging technologies (e.g., artificial intelligence, 5th generation mobile network [5G], Internet of Things) and the retirement of obsolete products.
+
+**Gold chunks:** nist-sp-800-160v2r1-p26-1f53810523a7
+
+**Evidence excerpts:** Changes in the technical environment can include emerging technologies (e.g., artificial intelligence, 5th generation mobile network [5G], Internet of Things) and the retirement of obsolete products.
+
+## EXP-046 - direct_control
+
+For control-review record DC-046, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning '• SP 800-30, Revision 1, Guide for Conducting Risk Assessments: Guidance for'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.26] • SP 800-30, Revision 1, Guide for Conducting Risk Assessments: Guidance for conducting risk assessments of federal information systems and organizations, amplifying the guidance in SP 800-39.
+
+**Gold chunks:** nist-sp-800-161r1-p26-afb7cb513852
+
+**Evidence excerpts:** • SP 800-30, Revision 1, Guide for Conducting Risk Assessments: Guidance for conducting risk assessments of federal information systems and organizations, amplifying the guidance in SP 800-39.
+
+## EXP-047 - direct_control
+
+For control-review record DC-047, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'Due to the large variety of mobile devices with different characteristics and'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.27] Due to the large variety of mobile devices with different characteristics and capabilities, organizational restrictions may vary for the different classes or types of such devices.
+
+**Gold chunks:** nist-sp-800-171r3-p27-0cd509c677d3
+
+**Evidence excerpts:** Due to the large variety of mobile devices with different characteristics and capabilities, organizational restrictions may vary for the different classes or types of such devices.
+
+## EXP-048 - direct_control
+
+For control-review record DC-048, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning 'factors can be combined, which factors must be further decomposed, and how'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] factors can be combined, which factors must be further decomposed, and how assessed values should be combined algorithmically).
+
+**Gold chunks:** nist-sp-800-30r1-p25-7654382a0ba9
+
+**Evidence excerpts:** factors can be combined, which factors must be further decomposed, and how assessed values should be combined algorithmically).
+
+## EXP-049 - direct_control
+
+For control-review record DC-049, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning 'to protect the organization’s core missions and business processes are adequately addressed'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.26] to protect the organization’s core missions and business processes are adequately addressed in all aspects of enterprise architecture, including reference models, segment and solution models, and the resulting systems supporting those missions and business processes.
+
+**Gold chunks:** nist-sp-800-12r1-p26-a3fdec0809fa
+
+**Evidence excerpts:** to protect the organization’s core missions and business processes are adequately addressed in all aspects of enterprise architecture, including reference models, segment and solution models, and the resulting systems supporting those missions and business processes.
+
+## EXP-050 - direct_control
+
+For control-review record DC-050, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'Finally, the information transformation into evidence is analogous to transferring knowledge into'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] Finally, the information transformation into evidence is analogous to transferring knowledge into actionusing the information produced by the analysis in one or more ways during the reporting phase.
+
+**Gold chunks:** nist-sp-800-86-p26-b6ae556fc811
+
+**Evidence excerpts:** Finally, the information transformation into evidence is analogous to transferring knowledge into actionusing the information produced by the analysis in one or more ways during the reporting phase.
+
+## EXP-051 - direct_control
+
+For control-review record DC-051, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning 'selection criteria can be guided and informed by many factors, including mission'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.30] selection criteria can be guided and informed by many factors, including mission and business needs, stakeholder protection needs, threats, vulnerabilities, and requirements to comply with federal laws, executive orders, directives, regulations, policies, standards, and guidelines.
+
+**Gold chunks:** nist-sp-800-53r5-p30-07bbe4ac3c62
+
+**Evidence excerpts:** selection criteria can be guided and informed by many factors, including mission and business needs, stakeholder protection needs, threats, vulnerabilities, and requirements to comply with federal laws, executive orders, directives, regulations, policies, standards, and guidelines.
+
+## EXP-052 - direct_control
+
+For control-review record DC-052, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning 'and technical expertise to successfully carry out assessments of system- specific, hybrid,'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.33] and technical expertise to successfully carry out assessments of system- specific, hybrid, and common controls.33 Skills and expertise includes knowledge of and experience with the specific hardware, software, and firmware components employed by the organization.
+
+**Gold chunks:** nist-sp-800-53ar5-p33-fab3a22676cc
+
+**Evidence excerpts:** and technical expertise to successfully carry out assessments of system- specific, hybrid, and common controls.33 Skills and expertise includes knowledge of and experience with the specific hardware, software, and firmware components employed by the organization.
+
+## EXP-053 - direct_control
+
+For control-review record DC-053, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning 'risk management hierarchy is a beneficiary of a successful RMF execution—reinforcing the'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.27] risk management hierarchy is a beneficiary of a successful RMF execution—reinforcing the iterative nature of the risk management process where security and privacy risks are framed, assessed, responded to, and monitored at various organizational levels.
+
+**Gold chunks:** nist-sp-800-37r2-p27-3b92bf0dcfb0
+
+**Evidence excerpts:** risk management hierarchy is a beneficiary of a successful RMF execution—reinforcing the iterative nature of the risk management process where security and privacy risks are framed, assessed, responded to, and monitored at various organizational levels.
+
+## EXP-054 - direct_control
+
+For control-review record DC-054, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning 'Since trustworthiness is something demonstrated, it is based on evidence that supports'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] Since trustworthiness is something demonstrated, it is based on evidence that supports a claim or judgment of an entity being worthy of trust [2] [20] [21].
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-16373a95f1d4
+
+**Evidence excerpts:** Since trustworthiness is something demonstrated, it is based on evidence that supports a claim or judgment of an entity being worthy of trust [2] [20] [21].
+
+## EXP-055 - direct_control
+
+For control-review record DC-055, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'Risk avoidance or threat avoidance is one possible risk response approach and'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.27] Risk avoidance or threat avoidance is one possible risk response approach and is feasible under restricted circumstances.
+
+**Gold chunks:** nist-sp-800-160v2r1-p27-82703a2a2ba9
+
+**Evidence excerpts:** Risk avoidance or threat avoidance is one possible risk response approach and is feasible under restricted circumstances.
+
+## EXP-056 - direct_control
+
+For control-review record DC-056, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning 'Risk Management Framework for Information Systems and Organizations: A System Life Cycle'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.26] Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy: Describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations.
+
+**Gold chunks:** nist-sp-800-161r1-p26-d48b618b0003
+
+**Evidence excerpts:** Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy: Describes the Risk Management Framework (RMF) and provides guidelines for applying the RMF to information systems and organizations.
+
+## EXP-057 - direct_control
+
+For control-review record DC-057, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'Verifying that the security requirements on the external systems as specified in'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.28] Verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied and 2.
+
+**Gold chunks:** nist-sp-800-171r3-p28-7d27c0944295
+
+**Evidence excerpts:** Verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied and 2.
+
+## EXP-058 - direct_control
+
+For control-review record DC-058, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning '2.4 APPLICATION OF RISK ASSESSMENTS As stated previously, risk assessments can be'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.26] 2.4 APPLICATION OF RISK ASSESSMENTS As stated previously, risk assessments can be conducted at all three tiers in the risk management hierarchy—organization level, mission/business process level, and information system level.
+
+**Gold chunks:** nist-sp-800-30r1-p26-6d20e40e8a54
+
+**Evidence excerpts:** 2.4 APPLICATION OF RISK ASSESSMENTS As stated previously, risk assessments can be conducted at all three tiers in the risk management hierarchy—organization level, mission/business process level, and information system level.
+
+## EXP-059 - direct_control
+
+For control-review record DC-059, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning 'determine the overall effectiveness of the controls (i.e., the extent to which'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.27] determine the overall effectiveness of the controls (i.e., the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system).
+
+**Gold chunks:** nist-sp-800-12r1-p27-f6077b3a6608
+
+**Evidence excerpts:** determine the overall effectiveness of the controls (i.e., the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security requirements for the system).
+
+## EXP-060 - direct_control
+
+For control-review record DC-060, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'actions that organizations can take to support the ongoing collection of data'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] actions that organizations can take to support the ongoing collection of data for forensic purposes.
+
+**Gold chunks:** nist-sp-800-86-p26-5f21b5bf0c1e
+
+**Evidence excerpts:** actions that organizations can take to support the ongoing collection of data for forensic purposes.
+
+## EXP-061 - direct_control
+
+For control-review record DC-061, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Security and Privacy Controls for Information Systems and Organizations' for this decision, with the relevant passage beginning 'Security and privacy risks arise from the planning and execution of organizational'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.31] Security and privacy risks arise from the planning and execution of organizational mission and business functions, placing information systems into operation, or continuing system operations.
+
+**Gold chunks:** nist-sp-800-53r5-p31-90b96662d546
+
+**Evidence excerpts:** Security and privacy risks arise from the planning and execution of organizational mission and business functions, placing information systems into operation, or continuing system operations.
+
+## EXP-062 - direct_control
+
+For control-review record DC-062, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Assessing Security and Privacy Controls' for this decision, with the relevant passage beginning 'for assessors based on the results of the security categorization process for'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.33] for assessors based on the results of the security categorization process for the system (in the case of security control assessments) and the risk to organizational operations and assets, individuals, other organizations, and the Nation.
+
+**Gold chunks:** nist-sp-800-53ar5-p33-5d1ec32435c5
+
+**Evidence excerpts:** for assessors based on the results of the security categorization process for the system (in the case of security control assessments) and the risk to organizational operations and assets, individuals, other organizations, and the Nation.
+
+## EXP-063 - direct_control
+
+For control-review record DC-063, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Risk Management Framework for Information Systems and Organizations' for this decision, with the relevant passage beginning '2.2 RISK MANAGEMENT FRAMEWORK STEPS AND STRUCTURE There are seven steps in'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.27] 2.2 RISK MANAGEMENT FRAMEWORK STEPS AND STRUCTURE There are seven steps in the RMF; a preparatory step to ensure that organizations are ready to execute the process and six main steps.
+
+**Gold chunks:** nist-sp-800-37r2-p27-253d2d7bec1b
+
+**Evidence excerpts:** 2.2 RISK MANAGEMENT FRAMEWORK STEPS AND STRUCTURE There are seven steps in the RMF; a preparatory step to ensure that organizations are ready to execute the process and six main steps.
+
+## EXP-064 - direct_control
+
+For control-review record DC-064, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Systems Security Engineering Volume 1' for this decision, with the relevant passage beginning 'and development; engineering and manufacturing development; production and deployment; training, operations, and'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] and development; engineering and manufacturing development; production and deployment; training, operations, and support; and retirement and disposal.
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-5899a035367b
+
+**Evidence excerpts:** and development; engineering and manufacturing development; production and deployment; training, operations, and support; and retirement and disposal.
+
+## EXP-065 - direct_control
+
+For control-review record DC-065, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cyber Resiliency Engineering Volume 2' for this decision, with the relevant passage beginning 'Its assessment is aligned with the definition of performance parameters, analysis of'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.27] Its assessment is aligned with the definition of performance parameters, analysis of functional dependencies, and identification of critical assets.
+
+**Gold chunks:** nist-sp-800-160v2r1-p27-ede792943c63
+
+**Evidence excerpts:** Its assessment is aligned with the definition of performance parameters, analysis of functional dependencies, and identification of critical assets.
+
+## EXP-066 - direct_control
+
+For control-review record DC-066, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Cybersecurity Supply Chain Risk Management Practices' for this decision, with the relevant passage beginning '• SP 800-181, Revision 1, National Initiative for Cybersecurity Education (NICE) Cybersecurity'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.27] • SP 800-181, Revision 1, National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework: A fundamental reference for describing and sharing information about cybersecurity work.
+
+**Gold chunks:** nist-sp-800-161r1-p27-76ec7360ce5f
+
+**Evidence excerpts:** • SP 800-181, Revision 1, National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework: A fundamental reference for describing and sharing information about cybersecurity work.
+
+## EXP-067 - direct_control
+
+For control-review record DC-067, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' for this decision, with the relevant passage beginning 'Potential indicators and possible precursors of insider threats include behaviors such as'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.30] Potential indicators and possible precursors of insider threats include behaviors such as inordinate, long-term job dissatisfaction; attempts to gain access to information that is not required for job performance; unexplained access to financial resources; sexual harassment or bullying of fellow employees; workplace violence; and other serious violations of the policies, procedures, rules, directives, or practices of organizations.
+
+**Gold chunks:** nist-sp-800-171r3-p30-2d5cec3e193f
+
+**Evidence excerpts:** Potential indicators and possible precursors of insider threats include behaviors such as inordinate, long-term job dissatisfaction; attempts to gain access to information that is not required for job performance; unexplained access to financial resources; sexual harassment or bullying of fellow employees; workplace violence; and other serious violations of the policies, procedures, rules, directives, or practices of organizations.
+
+## EXP-068 - direct_control
+
+For control-review record DC-068, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide for Conducting Risk Assessments' for this decision, with the relevant passage beginning 'FIGURE 4: RISK MANAGEMENT HIERARCHY Risk assessments support risk response decisions at'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.26] FIGURE 4: RISK MANAGEMENT HIERARCHY Risk assessments support risk response decisions at the different tiers of the risk management hierarchy.
+
+**Gold chunks:** nist-sp-800-30r1-p26-eae35fe1b6d4
+
+**Evidence excerpts:** FIGURE 4: RISK MANAGEMENT HIERARCHY Risk assessments support risk response decisions at the different tiers of the risk management hierarchy.
+
+## EXP-069 - direct_control
+
+For control-review record DC-069, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'An Introduction to Information Security' for this decision, with the relevant passage beginning 'user accounts; • Overseeing backup and recovery tasks; and • Implementing technical'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [An Introduction to Information Security, p.27] user accounts; • Overseeing backup and recovery tasks; and • Implementing technical security controls.
+
+**Gold chunks:** nist-sp-800-12r1-p27-2935f8881a67
+
+**Evidence excerpts:** user accounts; • Overseeing backup and recovery tasks; and • Implementing technical security controls.
+
+## EXP-070 - direct_control
+
+For control-review record DC-070, an engineering assurance board is reviewing a high-impact AI service that relies on inherited enterprise controls. The team has designated the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' for this decision, with the relevant passage beginning 'as CDs and DVDs, and also have several types of ports (e.g.,'. It needs a paragraph-length, evidence-bound note for the design record. State only the guidance directly supported by the designated passage, distinguish it from broader policy interpretation, and provide no additional requirements that are not established by the approved corpus.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] as CDs and DVDs, and also have several types of ports (e.g., Universal Serial Bus [USB], Firewire, Personal Computer Memory Card International Association [PCMCIA]) to which external data storage media and devices can be attached.
+
+**Gold chunks:** nist-sp-800-86-p26-2343c6b38df3
+
+**Evidence excerpts:** as CDs and DVDs, and also have several types of ports (e.g., Universal Serial Bus [USB], Firewire, Personal Computer Memory Card International Association [PCMCIA]) to which external data storage media and devices can be attached.
+
+## EXP-071 - multi_document_synthesis
+
+For synthesis-review record MS-001, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'and understanding of the organizational risk management strategy.17 The risk management strategy', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'Finally, risk assessments at Tier 1 take into consideration the identification of'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.31] and understanding of the organizational risk management strategy.17 The risk management strategy considers the cost, schedule, performance, and supply chain issues associated with the design, development, acquisition, deployment, operation, sustainment, and disposal of organizational systems. [Guide for Conducting Risk Assessments, p.28] Finally, risk assessments at Tier 1 take into consideration the identification of mission-essential functions from Continuity of Operations Plans (COOP)36 prepared by organizations when determining the contribution of Tier 2 risks.
+
+**Gold chunks:** nist-sp-800-53r5-p31-c8d8570ee1bd, nist-sp-800-30r1-p28-77a61f621918
+
+**Evidence excerpts:** and understanding of the organizational risk management strategy.17 The risk management strategy considers the cost, schedule, performance, and supply chain issues associated with the design, development, acquisition, deployment, operation, sustainment, and disposal of organizational systems. | Finally, risk assessments at Tier 1 take into consideration the identification of mission-essential functions from Continuity of Operations Plans (COOP)36 prepared by organizations when determining the contribution of Tier 2 risks.
+
+## EXP-072 - multi_document_synthesis
+
+For synthesis-review record MS-002, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning 'Independent security and privacy control assessment services can be obtained from other', while the other is 'An Introduction to Information Security' with the relevant passage beginning 'Social engineering online attacks can also be accomplished by using attachments that'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.33] Independent security and privacy control assessment services can be obtained from other elements within the organization or be contracted to a public or private sector entity outside of the organization. [An Introduction to Information Security, p.31] Social engineering online attacks can also be accomplished by using attachments that contain malicious code, which target an individual’s address book.
+
+**Gold chunks:** nist-sp-800-53ar5-p33-a55d327062d2, nist-sp-800-12r1-p31-6e0367d16a99
+
+**Evidence excerpts:** Independent security and privacy control assessment services can be obtained from other elements within the organization or be contracted to a public or private sector entity outside of the organization. | Social engineering online attacks can also be accomplished by using attachments that contain malicious code, which target an individual’s address book.
+
+## EXP-073 - multi_document_synthesis
+
+For synthesis-review record MS-003, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning '26 Impact of loss is one of four risk factors considered during', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning '12 If auditing was not enabled on a system when an event'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.27] 26 Impact of loss is one of four risk factors considered during risk assessment activities—the other three factors being threats, vulnerabilities, and likelihood of occurrence [SP 800-30]. [Guide to Integrating Forensic Techniques into Incident Response, p.27] 12 If auditing was not enabled on a system when an event occurred, incident handlers might enable auditing after the event is discovered in an attempt to record evidence of ongoing activity.
+
+**Gold chunks:** nist-sp-800-37r2-p27-7e715bfa8a16, nist-sp-800-86-p27-4967dfd4baae
+
+**Evidence excerpts:** 26 Impact of loss is one of four risk factors considered during risk assessment activities—the other three factors being threats, vulnerabilities, and likelihood of occurrence [SP 800-30]. | 12 If auditing was not enabled on a system when an event occurred, incident handlers might enable auditing after the event is discovered in an attempt to record evidence of ongoing activity.
+
+## EXP-074 - multi_document_synthesis
+
+For synthesis-review record MS-004, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'It is intended to inspire, guide, and inform the strategic direction for', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'a list of controls from the control catalog that impact or support'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.27] It is intended to inspire, guide, and inform the strategic direction for the global systems engineering community. [Security and Privacy Controls for Information Systems and Organizations, p.37] a list of controls from the control catalog that impact or support the implementation of a particular control or control enhancement, address a related security or privacy capability, or are referenced in the discussion section.
+
+**Gold chunks:** nist-sp-800-160v1r1-p27-0da17de9dc72, nist-sp-800-53r5-p37-3dc7e7d0264e
+
+**Evidence excerpts:** It is intended to inspire, guide, and inform the strategic direction for the global systems engineering community. | a list of controls from the control catalog that impact or support the implementation of a particular control or control enhancement, address a related security or privacy capability, or are referenced in the discussion section.
+
+## EXP-075 - multi_document_synthesis
+
+For synthesis-review record MS-005, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'and objectives can be viewed as two levels of fundamental objectives, as', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'Therefore, the assessment methods and objects provided with each assessment procedure are'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.27] and objectives can be viewed as two levels of fundamental objectives, as used in Decision Theory [Clemen13]. [Assessing Security and Privacy Controls, p.36] Therefore, the assessment methods and objects provided with each assessment procedure are termed potential to reflect the need to choose the specific methods and objects most appropriate for a specific assessment.
+
+**Gold chunks:** nist-sp-800-160v2r1-p27-78078d905b2f, nist-sp-800-53ar5-p36-8ba6a4908943
+
+**Evidence excerpts:** and objectives can be viewed as two levels of fundamental objectives, as used in Decision Theory [Clemen13]. | Therefore, the assessment methods and objects provided with each assessment procedure are termed potential to reflect the need to choose the specific methods and objects most appropriate for a specific assessment.
+
+## EXP-076 - multi_document_synthesis
+
+For synthesis-review record MS-006, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning '• NISTIR 7622, Notional Supply Chain Risk Management Practices for Federal Information', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'RISK ASSESSMENT—ORGANIZATION TASK P-3 Assess organization-wide security and privacy risk and update'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.27] • NISTIR 7622, Notional Supply Chain Risk Management Practices for Federal Information Systems: Provides a wide array of practices that help mitigate supply chain risk to federal information systems. [Risk Management Framework for Information Systems and Organizations, p.31] RISK ASSESSMENT—ORGANIZATION TASK P-3 Assess organization-wide security and privacy risk and update the risk assessment results on an ongoing basis.
+
+**Gold chunks:** nist-sp-800-161r1-p27-41dc658891bf, nist-sp-800-37r2-p31-7f6fee644dfc
+
+**Evidence excerpts:** • NISTIR 7622, Notional Supply Chain Risk Management Practices for Federal Information Systems: Provides a wide array of practices that help mitigate supply chain risk to federal information systems. | RISK ASSESSMENT—ORGANIZATION TASK P-3 Assess organization-wide security and privacy risk and update the risk assessment results on an ongoing basis.
+
+## EXP-077 - multi_document_synthesis
+
+For synthesis-review record MS-007, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'For example, organizations may determine that systems must have the capability to', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning '• It enforces constraints based on a set of rules to ensure'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.32] For example, organizations may determine that systems must have the capability to log every file access — both successful and unsuccessful — but only activate that capability under specific circumstances due to the potential burden on system performance. [Systems Security Engineering Volume 1, p.29] • It enforces constraints based on a set of rules to ensure that only authorized human-to- machine and machine-to-machine interactions and operations are allowed to occur while satisfying the second characteristic.
+
+**Gold chunks:** nist-sp-800-171r3-p32-be76814c1e30, nist-sp-800-160v1r1-p29-356637b9add1
+
+**Evidence excerpts:** For example, organizations may determine that systems must have the capability to log every file access — both successful and unsuccessful — but only activate that capability under specific circumstances due to the potential burden on system performance. | • It enforces constraints based on a set of rules to ensure that only authorized human-to- machine and machine-to-machine interactions and operations are allowed to occur while satisfying the second characteristic.
+
+## EXP-078 - multi_document_synthesis
+
+For synthesis-review record MS-008, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'and contractors to support organizational missions/business functions; (iv) the development of risk-aware', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'with design principles from other specialty disciplines, such as the security design'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.26] and contractors to support organizational missions/business functions; (iv) the development of risk-aware mission/business processes; and (v) the interpretation of information security policies with respect to organizational information systems and environments in which those systems operate. [Cyber Resiliency Engineering Volume 2, p.31] with design principles from other specialty disciplines, such as the security design principles in [SP 800-160 v1].
+
+**Gold chunks:** nist-sp-800-30r1-p26-2caf715e2a17, nist-sp-800-160v2r1-p31-be83c6170b64
+
+**Evidence excerpts:** and contractors to support organizational missions/business functions; (iv) the development of risk-aware mission/business processes; and (v) the interpretation of information security policies with respect to organizational information systems and environments in which those systems operate. | with design principles from other specialty disciplines, such as the security design principles in [SP 800-160 v1].
+
+## EXP-079 - multi_document_synthesis
+
+For synthesis-review record MS-009, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'In the government, this office is often responsible for processing personnel background', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'tooling, and infrastructure investments by acquirers and their developers, system integrators, external'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.28] In the government, this office is often responsible for processing personnel background checks and security clearances. [Cybersecurity Supply Chain Risk Management Practices, p.32] tooling, and infrastructure investments by acquirers and their developers, system integrators, external system service providers, and other ICT/OT-related service providers.
+
+**Gold chunks:** nist-sp-800-12r1-p28-9f858202684b, nist-sp-800-161r1-p32-7b2462231429
+
+**Evidence excerpts:** In the government, this office is often responsible for processing personnel background checks and security clearances. | tooling, and infrastructure investments by acquirers and their developers, system integrators, external system service providers, and other ICT/OT-related service providers.
+
+## EXP-080 - multi_document_synthesis
+
+For synthesis-review record MS-010, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'For example, as described in Sections 6 and 7, there are usually', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Verify that the security requirements for the system continue to be satisfied'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] For example, as described in Sections 6 and 7, there are usually many sources of information within an organization regarding network activity and application usage. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.39] Verify that the security requirements for the system continue to be satisfied after the system changes have been implemented.
+
+**Gold chunks:** nist-sp-800-86-p26-bee510009fbe, nist-sp-800-171r3-p39-27805d14330c
+
+**Evidence excerpts:** For example, as described in Sections 6 and 7, there are usually many sources of information within an organization regarding network activity and application usage. | Verify that the security requirements for the system continue to be satisfied after the system changes have been implemented.
+
+## EXP-081 - multi_document_synthesis
+
+For synthesis-review record MS-011, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'from the processing of personally identifiable information (PII) in varied operational, environmental,', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'processes, in particular for alternative mission/business processing in the face of compromised'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.31] from the processing of personally identifiable information (PII) in varied operational, environmental, and technical scenarios. [Guide for Conducting Risk Assessments, p.28] processes, in particular for alternative mission/business processing in the face of compromised information systems.
+
+**Gold chunks:** nist-sp-800-53r5-p31-0eb73b49db89, nist-sp-800-30r1-p28-604623bf5c12
+
+**Evidence excerpts:** from the processing of personally identifiable information (PII) in varied operational, environmental, and technical scenarios. | processes, in particular for alternative mission/business processing in the face of compromised information systems.
+
+## EXP-082 - multi_document_synthesis
+
+For synthesis-review record MS-012, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning 'the assessments is centrally managed by the organization to ensure a cost-effective', while the other is 'An Introduction to Information Security' with the relevant passage beginning 'In an effort to mitigate the potential damage caused by employee sabotage,'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.33] the assessments is centrally managed by the organization to ensure a cost-effective use of time and resources. [An Introduction to Information Security, p.32] In an effort to mitigate the potential damage caused by employee sabotage, the terminated employee’s access to IT infrastructure should be immediately disabled, and the individual should be escorted off company premises.
+
+**Gold chunks:** nist-sp-800-53ar5-p33-5fe0c7f49e97, nist-sp-800-12r1-p32-7dd672471cee
+
+**Evidence excerpts:** the assessments is centrally managed by the organization to ensure a cost-effective use of time and resources. | In an effort to mitigate the potential damage caused by employee sabotage, the terminated employee’s access to IT infrastructure should be immediately disabled, and the individual should be escorted off company premises.
+
+## EXP-083 - multi_document_synthesis
+
+For synthesis-review record MS-013, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'controls on an ongoing basis to include assessing control effectiveness, documenting changes', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'In some cases, there are so many possible data sources that it'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.28] controls on an ongoing basis to include assessing control effectiveness, documenting changes to the system and environment of operation, conducting risk assessments and impact analyses, and reporting the security and privacy posture of the system. [Guide to Integrating Forensic Techniques into Incident Response, p.28] In some cases, there are so many possible data sources that it is not practical to acquire them all.
+
+**Gold chunks:** nist-sp-800-37r2-p28-6408ff8f6c91, nist-sp-800-86-p28-4688404eaf6f
+
+**Evidence excerpts:** controls on an ongoing basis to include assessing control effectiveness, documenting changes to the system and environment of operation, conducting risk assessments and impact analyses, and reporting the security and privacy posture of the system. | In some cases, there are so many possible data sources that it is not practical to acquire them all.
+
+## EXP-084 - multi_document_synthesis
+
+For synthesis-review record MS-014, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'A systems engineering perspective on security requires an understanding of the concept', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'that control in its source location in the catalog to illustrate the'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.28] A systems engineering perspective on security requires an understanding of the concept of security (Section 3.1), the concept of an adequately secure system (Section 3.2 ), and the characteristics of systems (Section 3.3). [Security and Privacy Controls for Information Systems and Organizations, p.37] that control in its source location in the catalog to illustrate the two-way relationship.
+
+**Gold chunks:** nist-sp-800-160v1r1-p28-684162daf779, nist-sp-800-53r5-p37-cdd1b526c3e6
+
+**Evidence excerpts:** A systems engineering perspective on security requires an understanding of the concept of security (Section 3.1), the concept of an adequately secure system (Section 3.2 ), and the characteristics of systems (Section 3.3). | that control in its source location in the catalog to illustrate the two-way relationship.
+
+## EXP-085 - multi_document_synthesis
+
+For synthesis-review record MS-015, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'This objective also relates to an organization’s use of forensics and cyber', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'provided as a resource to assist in the selection of appropriate methods'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.28] This objective also relates to an organization’s use of forensics and cyber threat intelligence information sharing. [Assessing Security and Privacy Controls, p.36] provided as a resource to assist in the selection of appropriate methods and objects and not with the intent of limiting the selection.
+
+**Gold chunks:** nist-sp-800-160v2r1-p28-536299ef2073, nist-sp-800-53ar5-p36-18f4c0e8c8b5
+
+**Evidence excerpts:** This objective also relates to an organization’s use of forensics and cyber threat intelligence information sharing. | provided as a resource to assist in the selection of appropriate methods and objects and not with the intent of limiting the selection.
+
+## EXP-086 - multi_document_synthesis
+
+For synthesis-review record MS-016, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'The Key Practices presented in this document can be used to implement', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'Discussion: Risk assessment at the organizational level leverages aggregated information from system-level'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.27] The Key Practices presented in this document can be used to implement a robust C-SCRM function at an organization of any size, scope, and complexity. [Risk Management Framework for Information Systems and Organizations, p.31] Discussion: Risk assessment at the organizational level leverages aggregated information from system-level risk assessment results, continuous monitoring, and any strategic risk considerations relevant to the organization.
+
+**Gold chunks:** nist-sp-800-161r1-p27-d52d70baf4a5, nist-sp-800-37r2-p31-61191b38ab48
+
+**Evidence excerpts:** The Key Practices presented in this document can be used to implement a robust C-SCRM function at an organization of any size, scope, and complexity. | Discussion: Risk assessment at the organizational level leverages aggregated information from system-level risk assessment results, continuous monitoring, and any strategic risk considerations relevant to the organization.
+
+## EXP-087 - multi_document_synthesis
+
+For synthesis-review record MS-017, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'DISCUSSION Audit record content that may be necessary to support the auditing', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning 'secure25 requires an evidence-based determination that security performance is optimized against all'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.32] DISCUSSION Audit record content that may be necessary to support the auditing function includes time stamps, source and destination addresses, user or process identifiers, event descriptions, file names, and the access control or flow control rules that are invoked. [Systems Security Engineering Volume 1, p.29] secure25 requires an evidence-based determination that security performance is optimized against all other performance objectives and constraints.
+
+**Gold chunks:** nist-sp-800-171r3-p32-f336a7105fe8, nist-sp-800-160v1r1-p29-41a93853d818
+
+**Evidence excerpts:** DISCUSSION Audit record content that may be necessary to support the auditing function includes time stamps, source and destination addresses, user or process identifiers, event descriptions, file names, and the access control or flow control rules that are invoked. | secure25 requires an evidence-based determination that security performance is optimized against all other performance objectives and constraints.
+
+## EXP-088 - multi_document_synthesis
+
+For synthesis-review record MS-018, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'Risk assessments can also inform other risk management activities across the three', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'Constructs Cyber resiliency constructs, including goals, objectives, techniques, implementation approaches, and design'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.27] Risk assessments can also inform other risk management activities across the three tiers that are not security-related. [Cyber Resiliency Engineering Volume 2, p.31] Constructs Cyber resiliency constructs, including goals, objectives, techniques, implementation approaches, and design principles, enable systems engineers to express cyber resiliency concepts and the relationships among them.
+
+**Gold chunks:** nist-sp-800-30r1-p27-7b3ed0c88779, nist-sp-800-160v2r1-p31-66b6686cb492
+
+**Evidence excerpts:** Risk assessments can also inform other risk management activities across the three tiers that are not security-related. | Constructs Cyber resiliency constructs, including goals, objectives, techniques, implementation approaches, and design principles, enable systems engineers to express cyber resiliency concepts and the relationships among them.
+
+## EXP-089 - multi_document_synthesis
+
+For synthesis-review record MS-019, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'The procurement (or acquisitions) office is responsible for ensuring that organizational procurements', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'While there are cost-benefit trade-offs that must be acknowledged, the need to'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.28] The procurement (or acquisitions) office is responsible for ensuring that organizational procurements have been reviewed by appropriate officials. [Cybersecurity Supply Chain Risk Management Practices, p.32] While there are cost-benefit trade-offs that must be acknowledged, the need to better secure supply chains is an imperative for both government and the private sector.
+
+**Gold chunks:** nist-sp-800-12r1-p28-e49d7b910f4d, nist-sp-800-161r1-p32-48729b4da6d4
+
+**Evidence excerpts:** The procurement (or acquisitions) office is responsible for ensuring that organizational procurements have been reviewed by appropriate officials. | While there are cost-benefit trade-offs that must be acknowledged, the need to better secure supply chains is an imperative for both government and the private sector.
+
+## EXP-090 - multi_document_synthesis
+
+For synthesis-review record MS-020, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'The situation can become even more complicated if locations outside the organizations', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'REFERENCES Source Controls: CM-04, CM-04(02) Supporting Publications: SP 800-128 [41] 03.04.05 Access'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] The situation can become even more complicated if locations outside the organizations control are involved, such as an incident involving a computer at a telecommuters home office. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.39] REFERENCES Source Controls: CM-04, CM-04(02) Supporting Publications: SP 800-128 [41] 03.04.05 Access Restrictions for Change Define, document, approve, and enforce physical and logical access restrictions associated with changes to the system.
+
+**Gold chunks:** nist-sp-800-86-p26-07cc6039802d, nist-sp-800-171r3-p39-26945158c8d7
+
+**Evidence excerpts:** The situation can become even more complicated if locations outside the organizations control are involved, such as an incident involving a computer at a telecommuters home office. | REFERENCES Source Controls: CM-04, CM-04(02) Supporting Publications: SP 800-128 [41] 03.04.05 Access Restrictions for Change Define, document, approve, and enforce physical and logical access restrictions associated with changes to the system.
+
+## EXP-091 - multi_document_synthesis
+
+For synthesis-review record MS-021, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'a diverse set of security and privacy requirements that have been levied', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'Tier 2 risk assessments also provide assessments of the security and risk'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.32] a diverse set of security and privacy requirements that have been levied on information systems and organizations and that are consistent with and complementary to other recognized national and international information security and privacy standards. [Guide for Conducting Risk Assessments, p.28] Tier 2 risk assessments also provide assessments of the security and risk posture of organizational mission/business processes, which inform assessments of organizational risks at Tier 1.
+
+**Gold chunks:** nist-sp-800-53r5-p32-981335787da3, nist-sp-800-30r1-p28-bf6ce1e6c89a
+
+**Evidence excerpts:** a diverse set of security and privacy requirements that have been levied on information systems and organizations and that are consistent with and complementary to other recognized national and international information security and privacy standards. | Tier 2 risk assessments also provide assessments of the security and risk posture of organizational mission/business processes, which inform assessments of organizational risks at Tier 1.
+
+## EXP-092 - multi_document_synthesis
+
+For synthesis-review record MS-022, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning 'SECURITY AND PRIVACY PLANS SUMMARY Purpose Provide the objectives for the security', while the other is 'An Introduction to Information Security' with the relevant passage beginning 'Malicious hacker is a broad category of adversarial threats that can be'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.34] SECURITY AND PRIVACY PLANS SUMMARY Purpose Provide the objectives for the security and privacy control assessments, as well as a detailed roadmap of how to conduct such assessments based on the security and privacy plan(s). [An Introduction to Information Security, p.32] Malicious hacker is a broad category of adversarial threats that can be broken out into smaller categories depending on the specific actions or intent of the malicious hacker.
+
+**Gold chunks:** nist-sp-800-53ar5-p34-7376367afd05, nist-sp-800-12r1-p32-711bda847a06
+
+**Evidence excerpts:** SECURITY AND PRIVACY PLANS SUMMARY Purpose Provide the objectives for the security and privacy control assessments, as well as a detailed roadmap of how to conduct such assessments based on the security and privacy plan(s). | Malicious hacker is a broad category of adversarial threats that can be broken out into smaller categories depending on the specific actions or intent of the malicious hacker.
+
+## EXP-093 - multi_document_synthesis
+
+For synthesis-review record MS-023, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'Although the risk management approach in Figure 1 is conveyed as hierarchical,', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'data involves using forensic tools to collect volatile data, duplicating non-volatile data'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.29] Although the risk management approach in Figure 1 is conveyed as hierarchical, project and organization dynamics are typically more complex. [Guide to Integrating Forensic Techniques into Incident Response, p.28] data involves using forensic tools to collect volatile data, duplicating non-volatile data sources to collect their data, and securing the original non-volatile data sources.
+
+**Gold chunks:** nist-sp-800-37r2-p29-dc059c2b7803, nist-sp-800-86-p28-f514b4b7a1cf
+
+**Evidence excerpts:** Although the risk management approach in Figure 1 is conveyed as hierarchical, project and organization dynamics are typically more complex. | data involves using forensic tools to collect volatile data, duplicating non-volatile data sources to collect their data, and securing the original non-volatile data sources.
+
+## EXP-094 - multi_document_synthesis
+
+For synthesis-review record MS-024, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'needs, specific viewpoints (Section 3.8) and how security is demonstrated are considered,', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'The numerical designation of a control enhancement is used only to identify'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.28] needs, specific viewpoints (Section 3.8) and how security is demonstrated are considered, including what is adequate (Section 3.9). [Security and Privacy Controls for Information Systems and Organizations, p.37] The numerical designation of a control enhancement is used only to identify that enhancement within the control.
+
+**Gold chunks:** nist-sp-800-160v1r1-p28-0cc4b38bae46, nist-sp-800-53r5-p37-11ffeffdd4a8
+
+**Evidence excerpts:** needs, specific viewpoints (Section 3.8) and how security is demonstrated are considered, including what is adequate (Section 3.9). | The numerical designation of a control enhancement is used only to identify that enhancement within the control.
+
+## EXP-095 - multi_document_synthesis
+
+For synthesis-review record MS-025, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'and mission architectures, which include the technical architecture of the system-of-systems supporting', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'not the specific set 37 Common controls are not assessed as part'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.28] and mission architectures, which include the technical architecture of the system-of-systems supporting a mission or business function. [Assessing Security and Privacy Controls, p.36] not the specific set 37 Common controls are not assessed as part of system control assessments unless the common controls are part of a system that provides the common control(s) for inheritance by other systems.
+
+**Gold chunks:** nist-sp-800-160v2r1-p28-a9e4643b662f, nist-sp-800-53ar5-p36-0cb2e97c5695
+
+**Evidence excerpts:** and mission architectures, which include the technical architecture of the system-of-systems supporting a mission or business function. | not the specific set 37 Common controls are not assessed as part of system control assessments unless the common controls are part of a system that provides the common control(s) for inheritance by other systems.
+
+## EXP-096 - multi_document_synthesis
+
+For synthesis-review record MS-026, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'To support the development of an Enterprise Risk Register, this report describes', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'may exist within the organization (e.g., different locations serving different missions/business processes)'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.27] To support the development of an Enterprise Risk Register, this report describes the documentation of various scenarios based on the potential impact of threats and vulnerabilities on enterprise assets. [Risk Management Framework for Information Systems and Organizations, p.31] may exist within the organization (e.g., different locations serving different missions/business processes) and the need to account for such variability in risk assessments.
+
+**Gold chunks:** nist-sp-800-161r1-p27-c2d18409b200, nist-sp-800-37r2-p31-dab9fe84bc09
+
+**Evidence excerpts:** To support the development of an Enterprise Risk Register, this report describes the documentation of various scenarios based on the potential impact of threats and vulnerabilities on enterprise assets. | may exist within the organization (e.g., different locations serving different missions/business processes) and the need to account for such variability in risk assessments.
+
+## EXP-097 - multi_document_synthesis
+
+For synthesis-review record MS-027, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Generate audit records for the selected event types and audit record content', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning 'An adequately secure system does not necessarily preclude all of the conditions'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.33] Generate audit records for the selected event types and audit record content specified in 03.03.01 and 03.03.02. [Systems Security Engineering Volume 1, p.30] An adequately secure system does not necessarily preclude all of the conditions that can lead to or result in undesirable consequences.
+
+**Gold chunks:** nist-sp-800-171r3-p33-54b6b8592942, nist-sp-800-160v1r1-p30-80ef6e543a16
+
+**Evidence excerpts:** Generate audit records for the selected event types and audit record content specified in 03.03.01 and 03.03.02. | An adequately secure system does not necessarily preclude all of the conditions that can lead to or result in undesirable consequences.
+
+## EXP-098 - multi_document_synthesis
+
+For synthesis-review record MS-028, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'At Tier 3, risk assessments can inform assessments of cost, schedule, and', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning '30 The first component of risk management addresses how organizations frame risk'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.27] At Tier 3, risk assessments can inform assessments of cost, schedule, and performance risks associated with information systems, with information security experts coordinating with program managers, information system owners, and authorizing officials. [Cyber Resiliency Engineering Volume 2, p.31] 30 The first component of risk management addresses how organizations frame risk or establish a risk context—that is, describing the environment in which risk-based decisions are made.
+
+**Gold chunks:** nist-sp-800-30r1-p27-dc97d04f5dc8, nist-sp-800-160v2r1-p31-e4ee4c84641e
+
+**Evidence excerpts:** At Tier 3, risk assessments can inform assessments of cost, schedule, and performance risks associated with information systems, with information security experts coordinating with program managers, information system owners, and authorizing officials. | 30 The first component of risk management addresses how organizations frame risk or establish a risk context—that is, describing the environment in which risk-based decisions are made.
+
+## EXP-099 - multi_document_synthesis
+
+For synthesis-review record MS-029, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'point-of-contact for managers who require assistance in determining whether or not a', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'Risks Throughout Supply Chains Cybersecurity risks throughout the supply chain refers to'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.28] point-of-contact for managers who require assistance in determining whether or not a security background investigation is necessary for a particular position. [Cybersecurity Supply Chain Risk Management Practices, p.32] Risks Throughout Supply Chains Cybersecurity risks throughout the supply chain refers to the potential for harm or compromise that arises from the cybersecurity risks posed by suppliers, their supply chains, and their products or services.
+
+**Gold chunks:** nist-sp-800-12r1-p28-5d9b4cf1c8a0, nist-sp-800-161r1-p32-72578711353b
+
+**Evidence excerpts:** point-of-contact for managers who require assistance in determining whether or not a security background investigation is necessary for a particular position. | Risks Throughout Supply Chains Cybersecurity risks throughout the supply chain refers to the potential for harm or compromise that arises from the cybersecurity risks posed by suppliers, their supply chains, and their products or services.
+
+## EXP-100 - multi_document_synthesis
+
+For synthesis-review record MS-030, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'For example, as described in Section 5.1.1, most OSs can be configured', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'In such situations, organizations ensure that the inventories include the system-specific information'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] For example, as described in Section 5.1.1, most OSs can be configured to audit and record certain types of events, such as authentication attempts and security policy changes, as part of normal operations. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.42] In such situations, organizations ensure that the inventories include the system-specific information required for component accountability.
+
+**Gold chunks:** nist-sp-800-86-p26-a13d7dab596c, nist-sp-800-171r3-p42-9d72b89c2fc6
+
+**Evidence excerpts:** For example, as described in Section 5.1.1, most OSs can be configured to audit and record certain types of events, such as authentication attempts and security policy changes, as part of normal operations. | In such situations, organizations ensure that the inventories include the system-specific information required for component accountability.
+
+## EXP-101 - multi_document_synthesis
+
+For synthesis-review record MS-031, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'For federal information security and privacy policies, the term requirement is generally', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'in the Initiation phase.38 In the Initiation phase, risk assessments evaluate the'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.34] For federal information security and privacy policies, the term requirement is generally used to refer to information security and privacy obligations imposed on organizations. [Guide for Conducting Risk Assessments, p.28] in the Initiation phase.38 In the Initiation phase, risk assessments evaluate the anticipated vulnerabilities and predisposing conditions affecting the confidentiality, integrity, and availability of information systems in the context of the planned environments of operation.
+
+**Gold chunks:** nist-sp-800-53r5-p34-caba66a41702, nist-sp-800-30r1-p28-2848babbb007
+
+**Evidence excerpts:** For federal information security and privacy policies, the term requirement is generally used to refer to information security and privacy obligations imposed on organizations. | in the Initiation phase.38 In the Initiation phase, risk assessments evaluate the anticipated vulnerabilities and predisposing conditions affecting the confidentiality, integrity, and availability of information systems in the context of the planned environments of operation.
+
+## EXP-102 - multi_document_synthesis
+
+For synthesis-review record MS-032, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning 'and privacy control assessments, respectively, as well as a detailed roadmap of', while the other is 'An Introduction to Information Security' with the relevant passage beginning 'Nevertheless, the worldwide population of attackers poses a relatively high threat of'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.34] and privacy control assessments, respectively, as well as a detailed roadmap of how to conduct such assessments. [An Introduction to Information Security, p.32] Nevertheless, the worldwide population of attackers poses a relatively high threat of isolated or brief disruptions that could cause serious damage to business or infrastructure.
+
+**Gold chunks:** nist-sp-800-53ar5-p34-ce1abbf39f9e, nist-sp-800-12r1-p32-47329fa8ae64
+
+**Evidence excerpts:** and privacy control assessments, respectively, as well as a detailed roadmap of how to conduct such assessments. | Nevertheless, the worldwide population of attackers poses a relatively high threat of isolated or brief disruptions that could cause serious damage to business or infrastructure.
+
+## EXP-103 - multi_document_synthesis
+
+For synthesis-review record MS-033, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'Each step in the RMF has a purpose statement, a defined set', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'It is particularly important for an analyst to prove that the data'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.29] Each step in the RMF has a purpose statement, a defined set of outcomes, and a set of tasks that are carried out to achieve those outcomes. [Guide to Integrating Forensic Techniques into Incident Response, p.28] It is particularly important for an analyst to prove that the data has not been tampered with if it might be needed for legal reasons.
+
+**Gold chunks:** nist-sp-800-37r2-p29-aa1510b63f74, nist-sp-800-86-p28-dc8ff586afc6
+
+**Evidence excerpts:** Each step in the RMF has a purpose statement, a defined set of outcomes, and a set of tasks that are carried out to achieve those outcomes. | It is particularly important for an analyst to prove that the data has not been tampered with if it might be needed for legal reasons.
+
+## EXP-104 - multi_document_synthesis
+
+For synthesis-review record MS-034, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'the user • Design intent: The system behaviors and outcomes to be', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'hyperlinks to publications for obtaining additional information for control development, implementation, assessment,'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.28] the user • Design intent: The system behaviors and outcomes to be achieved by the design A system that delivers a capability per the design intent but inconsistent with the user intent constitutes a loss. [Security and Privacy Controls for Information Systems and Organizations, p.37] hyperlinks to publications for obtaining additional information for control development, implementation, assessment, and monitoring.
+
+**Gold chunks:** nist-sp-800-160v1r1-p28-3933dd33ac60, nist-sp-800-53r5-p37-12ce0a4835db
+
+**Evidence excerpts:** the user • Design intent: The system behaviors and outcomes to be achieved by the design A system that delivers a capability per the design intent but inconsistent with the user intent constitutes a loss. | hyperlinks to publications for obtaining additional information for control development, implementation, assessment, and monitoring.
+
+## EXP-105 - multi_document_synthesis
+
+For synthesis-review record MS-035, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'the organization’s missions and business functions or operational concept for the system', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'The values selected by the organization are based on the characteristics of'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.28] the organization’s missions and business functions or operational concept for the system of interest. [Assessing Security and Privacy Controls, p.37] The values selected by the organization are based on the characteristics of the system being assessed (including assurance requirements) and the specific determinations to be made.
+
+**Gold chunks:** nist-sp-800-160v2r1-p28-26889f28b321, nist-sp-800-53ar5-p37-53596f578693
+
+**Evidence excerpts:** the organization’s missions and business functions or operational concept for the system of interest. | The values selected by the organization are based on the characteristics of the system being assessed (including assurance requirements) and the specific determinations to be made.
+
+## EXP-106 - multi_document_synthesis
+
+For synthesis-review record MS-036, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'provide those benefits might also introduce a variety of cybersecurity risks throughout', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'Information security programs are responsible for protecting information and information systems from'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.29] provide those benefits might also introduce a variety of cybersecurity risks throughout the supply chain (e.g., a supplier disruption that causes a reduction in service levels and leads to dissatisfaction from the enterprise’s customer base). [Risk Management Framework for Information Systems and Organizations, p.32] Information security programs are responsible for protecting information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction (i.e., unauthorized system activity or behavior) in order to provide confidentiality, integrity, and availability.
+
+**Gold chunks:** nist-sp-800-161r1-p29-8f1324f035e9, nist-sp-800-37r2-p32-c9197f90a9ca
+
+**Evidence excerpts:** provide those benefits might also introduce a variety of cybersecurity risks throughout the supply chain (e.g., a supplier disruption that causes a reduction in service levels and leads to dissatisfaction from the enterprise’s customer base). | Information security programs are responsible for protecting information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction (i.e., unauthorized system activity or behavior) in order to provide confidentiality, integrity, and availability.
+
+## EXP-107 - multi_document_synthesis
+
+For synthesis-review record MS-037, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'If organizations are prohibited from reviewing and analyzing audit records or unable', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning 'It is based on assertions and expectations about the system security objectives'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.34] If organizations are prohibited from reviewing and analyzing audit records or unable to conduct such activities, the review or analysis may be carried out by other organizations granted such authority. [Systems Security Engineering Volume 1, p.30] It is based on assertions and expectations about the system security objectives and determining how well those objectives have been achieved.
+
+**Gold chunks:** nist-sp-800-171r3-p34-3a878127c052, nist-sp-800-160v1r1-p30-d3b7a53be9f4
+
+**Evidence excerpts:** If organizations are prohibited from reviewing and analyzing audit records or unable to conduct such activities, the review or analysis may be carried out by other organizations granted such authority. | It is based on assertions and expectations about the system security objectives and determining how well those objectives have been achieved.
+
+## EXP-108 - multi_document_synthesis
+
+For synthesis-review record MS-038, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'serve as inputs to, and are aligned with, non- security risk management', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'stage, cyber resiliency goals and objectives are tailored in terms of the'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.27] serve as inputs to, and are aligned with, non- security risk management activities at that tier.35 In addition, the results of risk assessments at lower tiers serve as inputs to risk assessments at higher tiers. [Cyber Resiliency Engineering Volume 2, p.33] stage, cyber resiliency goals and objectives are tailored in terms of the concept of use for the system of interest.
+
+**Gold chunks:** nist-sp-800-30r1-p27-859149f4d4e2, nist-sp-800-160v2r1-p33-121195cf9030
+
+**Evidence excerpts:** serve as inputs to, and are aligned with, non- security risk management activities at that tier.35 In addition, the results of risk assessments at lower tiers serve as inputs to risk assessments at higher tiers. | stage, cyber resiliency goals and objectives are tailored in terms of the concept of use for the system of interest.
+
+## EXP-109 - multi_document_synthesis
+
+For synthesis-review record MS-039, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'Adversarial threat sources are individuals, groups, organizations, or entities that seek to', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning '• A company is on contract to produce a critical component of'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.30] Adversarial threat sources are individuals, groups, organizations, or entities that seek to exploit an organization’s dependence on cyber resources. [Cybersecurity Supply Chain Risk Management Practices, p.32] • A company is on contract to produce a critical component of a larger acquisition, but the company relabels products from an unvetted supplier.
+
+**Gold chunks:** nist-sp-800-12r1-p30-8b264679fe46, nist-sp-800-161r1-p32-1daef4602821
+
+**Evidence excerpts:** Adversarial threat sources are individuals, groups, organizations, or entities that seek to exploit an organization’s dependence on cyber resources. | • A company is on contract to produce a critical component of a larger acquisition, but the company relabels products from an unvetted supplier.
+
+## EXP-110 - multi_document_synthesis
+
+For synthesis-review record MS-040, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'Centralized logging prevents unauthorized users from tampering with logs and employing anti-forensic', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Organizations can implement protective measures on the systems or system components used'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.27] Centralized logging prevents unauthorized users from tampering with logs and employing anti-forensic techniques to impede analysis.13 Performing regular backups of systems allows analysts to view the contents of the system as they were at a particular time. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.43] Organizations can implement protective measures on the systems or system components used by individuals departing on and returning from travel.
+
+**Gold chunks:** nist-sp-800-86-p27-6916dc5a2398, nist-sp-800-171r3-p43-ed2d413fabee
+
+**Evidence excerpts:** Centralized logging prevents unauthorized users from tampering with logs and employing anti-forensic techniques to impede analysis.13 Performing regular backups of systems allows analysts to view the contents of the system as they were at a particular time. | Organizations can implement protective measures on the systems or system components used by individuals departing on and returning from travel.
+
+## EXP-111 - multi_document_synthesis
+
+For synthesis-review record MS-041, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'The term requirement, as used in this guideline, includes both legal and', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'descriptions of vulnerabilities in the systems, an assessment of the risks associated'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.34] The term requirement, as used in this guideline, includes both legal and policy requirements, as well as an expression of the broader set of stakeholder protection needs that may be derived from other sources. [Guide for Conducting Risk Assessments, p.29] descriptions of vulnerabilities in the systems, an assessment of the risks associated with each vulnerability (thereby updating the assessment of vulnerability severity), and corrective actions that can be taken to mitigate the risks.
+
+**Gold chunks:** nist-sp-800-53r5-p34-cc6e07702698, nist-sp-800-30r1-p29-21dce06d78a9
+
+**Evidence excerpts:** The term requirement, as used in this guideline, includes both legal and policy requirements, as well as an expression of the broader set of stakeholder protection needs that may be derived from other sources. | descriptions of vulnerabilities in the systems, an assessment of the risks associated with each vulnerability (thereby updating the assessment of vulnerability severity), and corrective actions that can be taken to mitigate the risks.
+
+## EXP-112 - multi_document_synthesis
+
+For synthesis-review record MS-042, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning 'The assessor starts with the security or privacy controls described in the', while the other is 'An Introduction to Information Security' with the relevant passage beginning 'In addition to possible economic espionage, foreign intelligence services may target unclassified'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.35] The assessor starts with the security or privacy controls described in the security or privacy plan and considers the purpose of the assessment. [An Introduction to Information Security, p.33] In addition to possible economic espionage, foreign intelligence services may target unclassified systems to further their intelligence missions.
+
+**Gold chunks:** nist-sp-800-53ar5-p35-6bc42b405839, nist-sp-800-12r1-p33-bc42cdecb86d
+
+**Evidence excerpts:** The assessor starts with the security or privacy controls described in the security or privacy plan and considers the purpose of the assessment. | In addition to possible economic espionage, foreign intelligence services may target unclassified systems to further their intelligence missions.
+
+## EXP-113 - multi_document_synthesis
+
+For synthesis-review record MS-043, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'Flexible implementation may include executing tasks in a different (potentially nonsequential) order,', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'In such situations, a clearly defined chain of custody should be followed'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.29] Flexible implementation may include executing tasks in a different (potentially nonsequential) order, emphasizing certain tasks over other tasks, or combining certain tasks where appropriate. [Guide to Integrating Forensic Techniques into Incident Response, p.28] In such situations, a clearly defined chain of custody should be followed to avoid allegations of mishandling or tampering of evidence.
+
+**Gold chunks:** nist-sp-800-37r2-p29-d67a407cc972, nist-sp-800-86-p28-15f98963cea1
+
+**Evidence excerpts:** Flexible implementation may include executing tasks in a different (potentially nonsequential) order, emphasizing certain tasks over other tasks, or combining certain tasks where appropriate. | In such situations, a clearly defined chain of custody should be followed to avoid allegations of mishandling or tampering of evidence.
+
+## EXP-114 - multi_document_synthesis
+
+For synthesis-review record MS-044, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'security control objective is enforcing constraints in the form of rules for', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'by the organization, the values for the assignment and selection operations become'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.28] security control objective is enforcing constraints in the form of rules for allowed and disallowed behaviors and outcomes. [Security and Privacy Controls for Information Systems and Organizations, p.38] by the organization, the values for the assignment and selection operations become a part of the control.
+
+**Gold chunks:** nist-sp-800-160v1r1-p28-27aa6cccb251, nist-sp-800-53r5-p38-3960cb5a1489
+
+**Evidence excerpts:** security control objective is enforcing constraints in the form of rules for allowed and disallowed behaviors and outcomes. | by the organization, the values for the assignment and selection operations become a part of the control.
+
+## EXP-115 - multi_document_synthesis
+
+For synthesis-review record MS-045, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'Privilege Restriction: Restrict privileges based on attributes of users and system elements,', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'the assessment of common controls is the responsibility of the organizational entity'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.29] Privilege Restriction: Restrict privileges based on attributes of users and system elements, as well as on environmental factors. [Assessing Security and Privacy Controls, p.37] the assessment of common controls is the responsibility of the organizational entity that developed and implemented the controls (i.e., common control provider), the assessment procedures in Chapter 4 are also used to assess common controls.
+
+**Gold chunks:** nist-sp-800-160v2r1-p29-e22d9adc8585, nist-sp-800-53ar5-p37-7e009105972c
+
+**Evidence excerpts:** Privilege Restriction: Restrict privileges based on attributes of users and system elements, as well as on environmental factors. | the assessment of common controls is the responsibility of the organizational entity that developed and implemented the controls (i.e., common control provider), the assessment procedures in Chapter 4 are also used to assess common controls.
+
+## EXP-116 - multi_document_synthesis
+
+For synthesis-review record MS-046, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'array of stakeholder groups that include information security and privacy, system developers', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'to consider the risks to individuals that may arise from their interactions'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.29] array of stakeholder groups that include information security and privacy, system developers and implementers, acquisition, procurement, legal, and HR. [Risk Management Framework for Information Systems and Organizations, p.32] to consider the risks to individuals that may arise from their interactions with information systems, where the processing of PII may be less impactful than the effect the system has on individuals’ behavior or activities.
+
+**Gold chunks:** nist-sp-800-161r1-p29-6f2c30a62ad3, nist-sp-800-37r2-p32-1ea08bc1245c
+
+**Evidence excerpts:** array of stakeholder groups that include information security and privacy, system developers and implementers, acquisition, procurement, legal, and HR. | to consider the risks to individuals that may arise from their interactions with information systems, where the processing of PII may be less impactful than the effect the system has on individuals’ behavior or activities.
+
+## EXP-117 - multi_document_synthesis
+
+For synthesis-review record MS-047, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Implement an audit record reduction and report generation capability that supports audit', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning 'System states may be secure states (i.e., what states are desired and'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.35] Implement an audit record reduction and report generation capability that supports audit record review, analysis, reporting requirements, and after-the- fact investigations of incidents. [Systems Security Engineering Volume 1, p.31] System states may be secure states (i.e., what states are desired and allowed) and insecure states (i.e., what states are not desired nor allowed).
+
+**Gold chunks:** nist-sp-800-171r3-p35-b912d568ce1d, nist-sp-800-160v1r1-p31-bfe3c398553b
+
+**Evidence excerpts:** Implement an audit record reduction and report generation capability that supports audit record review, analysis, reporting requirements, and after-the- fact investigations of incidents. | System states may be secure states (i.e., what states are desired and allowed) and insecure states (i.e., what states are not desired nor allowed).
+
+## EXP-118 - multi_document_synthesis
+
+For synthesis-review record MS-048, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'This is due to how organizations typically respond to risks that potentially', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'well the prioritized cyber resiliency goals and objectives can be achieved and'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.27] This is due to how organizations typically respond to risks that potentially affect widespread organizational operations and assets—where such risk responses may need to address systemic or institutional issues. [Cyber Resiliency Engineering Volume 2, p.33] well the prioritized cyber resiliency goals and objectives can be achieved and how well the relevant strategic cyber resiliency design principles can be applied.
+
+**Gold chunks:** nist-sp-800-30r1-p27-e29f46429826, nist-sp-800-160v2r1-p33-0ececb39c540
+
+**Evidence excerpts:** This is due to how organizations typically respond to risks that potentially affect widespread organizational operations and assets—where such risk responses may need to address systemic or institutional issues. | well the prioritized cyber resiliency goals and objectives can be achieved and how well the relevant strategic cyber resiliency design principles can be applied.
+
+## EXP-119 - multi_document_synthesis
+
+For synthesis-review record MS-049, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'affect the confidentiality and integrity of the information stored in a system', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'It may also be difficult to determine whether an event was the'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.30] affect the confidentiality and integrity of the information stored in a system while others only affect the availability of the system. [Cybersecurity Supply Chain Risk Management Practices, p.33] It may also be difficult to determine whether an event was the direct result of a supply chain vulnerability.
+
+**Gold chunks:** nist-sp-800-12r1-p30-6b450e254ce7, nist-sp-800-161r1-p33-ce6d2e947d34
+
+**Evidence excerpts:** affect the confidentiality and integrity of the information stored in a system while others only affect the availability of the system. | It may also be difficult to determine whether an event was the direct result of a supply chain vulnerability.
+
+## EXP-120 - multi_document_synthesis
+
+For synthesis-review record MS-050, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'Another proactive data collecting measure is the monitoring of user behavior, such', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Security [TLS] authentication, Kerberos) to identify and authenticate devices on local and'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.27] Another proactive data collecting measure is the monitoring of user behavior, such as keystroke monitoring, which records the keyboard usage of a particular system. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.44] Security [TLS] authentication, Kerberos) to identify and authenticate devices on local and wide area networks.
+
+**Gold chunks:** nist-sp-800-86-p27-f61ae1ab03cb, nist-sp-800-171r3-p44-af225ff3ba56
+
+**Evidence excerpts:** Another proactive data collecting measure is the monitoring of user behavior, such as keystroke monitoring, which records the keyboard usage of a particular system. | Security [TLS] authentication, Kerberos) to identify and authenticate devices on local and wide area networks.
+
+## EXP-121 - multi_document_synthesis
+
+For synthesis-review record MS-051, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'and firmware components of a system as specification requirements—that is, capabilities that', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'Risk assessments can be tailored to each step in the RMF as'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.34] and firmware components of a system as specification requirements—that is, capabilities that implement all or part of a control and that may be assessed (i.e., as part of the verification, validation, testing, and evaluation processes). [Guide for Conducting Risk Assessments, p.29] Risk assessments can be tailored to each step in the RMF as reflected in the purpose and scope of the assessments described in Section 3.1.
+
+**Gold chunks:** nist-sp-800-53r5-p34-d172130efaac, nist-sp-800-30r1-p29-b23ec0aabcae
+
+**Evidence excerpts:** and firmware components of a system as specification requirements—that is, capabilities that implement all or part of a control and that may be assessed (i.e., as part of the verification, validation, testing, and evaluation processes). | Risk assessments can be tailored to each step in the RMF as reflected in the purpose and scope of the assessments described in Section 3.1.
+
+## EXP-122 - multi_document_synthesis
+
+For synthesis-review record MS-052, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning 'officials for privacy/chief privacy officers, mission/information owners, Inspectors General, and authorizing officials)', while the other is 'An Introduction to Information Security' with the relevant passage beginning 'sell products, conduct phishing schemes, distribute spyware/malicious code, or attack organizations (e.g.,'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.35] officials for privacy/chief privacy officers, mission/information owners, Inspectors General, and authorizing officials) to determine which controls are to be assessed. [An Introduction to Information Security, p.33] sell products, conduct phishing schemes, distribute spyware/malicious code, or attack organizations (e.g., DoS).
+
+**Gold chunks:** nist-sp-800-53ar5-p35-626cc5fb443a, nist-sp-800-12r1-p33-bfa1059e82c3
+
+**Evidence excerpts:** officials for privacy/chief privacy officers, mission/information owners, Inspectors General, and authorizing officials) to determine which controls are to be assessed. | sell products, conduct phishing schemes, distribute spyware/malicious code, or attack organizations (e.g., DoS).
+
+## EXP-123 - multi_document_synthesis
+
+For synthesis-review record MS-053, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'inherent in RMF execution promotes effective security and privacy that helps to', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'log should be kept of every step that was taken to collect'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.29] inherent in RMF execution promotes effective security and privacy that helps to protect the systems that organizations depend on for mission and business succes s and the individuals whose information is processed by those systems. [Guide to Integrating Forensic Techniques into Incident Response, p.28] log should be kept of every step that was taken to collect the data, including information about each tool used in the process.
+
+**Gold chunks:** nist-sp-800-37r2-p29-f9f07236cfed, nist-sp-800-86-p28-9a51647b795f
+
+**Evidence excerpts:** inherent in RMF execution promotes effective security and privacy that helps to protect the systems that organizations depend on for mission and business succes s and the individuals whose information is processed by those systems. | log should be kept of every step that was taken to collect the data, including information about each tool used in the process.
+
+## EXP-124 - multi_document_synthesis
+
+For synthesis-review record MS-054, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'rules are stated in terms of subjects (active entities), objects (passive entities),', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'Refinement can also be used to narrow the scope of a control'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.28] rules are stated in terms of subjects (active entities), objects (passive entities), and the operations that the subject can perform or invoke on 17 Intended behaviors include interactions. [Security and Privacy Controls for Information Systems and Organizations, p.38] Refinement can also be used to narrow the scope of a control in conjunction with iteration to cover all applicable scopes (e.g., applying different authentication mechanisms to different system interfaces).
+
+**Gold chunks:** nist-sp-800-160v1r1-p28-e6f08cad36d3, nist-sp-800-53r5-p38-0825e311bef4
+
+**Evidence excerpts:** rules are stated in terms of subjects (active entities), objects (passive entities), and the operations that the subject can perform or invoke on 17 Intended behaviors include interactions. | Refinement can also be used to narrow the scope of a control in conjunction with iteration to cover all applicable scopes (e.g., applying different authentication mechanisms to different system interfaces).
+
+## EXP-125 - multi_document_synthesis
+
+For synthesis-review record MS-055, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'Each technique is characterized by both the capabilities it provides and the', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'System owners are expected to adjust or tailor the organization-developed contingency plan'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.29] Each technique is characterized by both the capabilities it provides and the intended consequences of using the technologies or the processes it includes. [Assessing Security and Privacy Controls, p.37] System owners are expected to adjust or tailor the organization-developed contingency plan when there are specific aspects of the plan that need to be defined for the particular system where the control is employed.
+
+**Gold chunks:** nist-sp-800-160v2r1-p29-4708f6b62711, nist-sp-800-53ar5-p37-758eafe9a06a
+
+**Evidence excerpts:** Each technique is characterized by both the capabilities it provides and the intended consequences of using the technologies or the processes it includes. | System owners are expected to adjust or tailor the organization-developed contingency plan when there are specific aspects of the plan that need to be defined for the particular system where the control is employed.
+
+## EXP-126 - multi_document_synthesis
+
+For synthesis-review record MS-056, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'Monitor risk exposure and the effectiveness of mitigating risk on an ongoing', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'planning, budgeting, governance, acquisition, and management of federal information, personnel, equipment, funds,'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.30] Monitor risk exposure and the effectiveness of mitigating risk on an ongoing basis, including tracking changes to an information system or supply chain using effective enterprise communications and a feedback loop for continuous improvement. [Risk Management Framework for Information Systems and Organizations, p.32] planning, budgeting, governance, acquisition, and management of federal information, personnel, equipment, funds, information technology resources, and supporting infrastructure and services.
+
+**Gold chunks:** nist-sp-800-161r1-p30-4851e6209e21, nist-sp-800-37r2-p32-4a28933ea926
+
+**Evidence excerpts:** Monitor risk exposure and the effectiveness of mitigating risk on an ongoing basis, including tracking changes to an information system or supply chain using effective enterprise communications and a feedback loop for continuous improvement. | planning, budgeting, governance, acquisition, and management of federal information, personnel, equipment, funds, information technology resources, and supporting infrastructure and services.
+
+## EXP-127 - multi_document_synthesis
+
+For synthesis-review record MS-057, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Time is often expressed in Coordinated Universal Time (UTC) — a modern', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning 'detect that the system is in an insecure state and (2) detect'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.35] Time is often expressed in Coordinated Universal Time (UTC) — a modern continuation of Greenwich Mean Time (GMT) — or local time with an offset from UTC. [Systems Security Engineering Volume 1, p.31] detect that the system is in an insecure state and (2) detect a transition that will place the system into an insecure state for the purposes of responding to avoid the propagation of new failure.
+
+**Gold chunks:** nist-sp-800-171r3-p35-0cbec7b368be, nist-sp-800-160v1r1-p31-fa87001f4b6c
+
+**Evidence excerpts:** Time is often expressed in Coordinated Universal Time (UTC) — a modern continuation of Greenwich Mean Time (GMT) — or local time with an offset from UTC. | detect that the system is in an insecure state and (2) detect a transition that will place the system into an insecure state for the purposes of responding to avoid the propagation of new failure.
+
+## EXP-128 - multi_document_synthesis
+
+For synthesis-review record MS-058, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'the Organizational Tier At Tier 1, risk assessments support organizational strategies, policies,', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'applied to the selected system architecture and that support the strategic cyber'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.27] the Organizational Tier At Tier 1, risk assessments support organizational strategies, policies, guidance, and processes for managing risk. [Cyber Resiliency Engineering Volume 2, p.34] applied to the selected system architecture and that support the strategic cyber resiliency design principles) are identified and prioritized based on how well the design principles enable the prioritized cyber resiliency objectives to be achieved.
+
+**Gold chunks:** nist-sp-800-30r1-p27-1a4b8f8d9df2, nist-sp-800-160v2r1-p34-0a9a0bab5127
+
+**Evidence excerpts:** the Organizational Tier At Tier 1, risk assessments support organizational strategies, policies, guidance, and processes for managing risk. | applied to the selected system architecture and that support the strategic cyber resiliency design principles) are identified and prioritized based on how well the design principles enable the prioritized cyber resiliency objectives to be achieved.
+
+## EXP-129 - multi_document_synthesis
+
+For synthesis-review record MS-059, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'to implement the most cost-effective security measures, system owners, managers, and users', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'a large-scale service outage at a major cloud services provider may cause'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.30] to implement the most cost-effective security measures, system owners, managers, and users need to know and understand the vulnerabilities of the system as well as the threat sources and events that may exploit the vulnerabilities. [Cybersecurity Supply Chain Risk Management Practices, p.33] a large-scale service outage at a major cloud services provider may cause service or production disruptions for multiple entities within an enterprise’s supply chain and lead to negative effects within multiple mission and business processes.
+
+**Gold chunks:** nist-sp-800-12r1-p30-ce2ca6a6111d, nist-sp-800-161r1-p33-5666caafead4
+
+**Evidence excerpts:** to implement the most cost-effective security measures, system owners, managers, and users need to know and understand the vulnerabilities of the system as well as the threat sources and events that may exploit the vulnerabilities. | a large-scale service outage at a major cloud services provider may cause service or production disruptions for multiple entities within an enterprise’s supply chain and lead to negative effects within multiple mission and business processes.
+
+## EXP-130 - multi_document_synthesis
+
+For synthesis-review record MS-060, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'Data acquisition should be performed using a three-step process: developing a plan', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'DISCUSSION Password-based authentication applies to passwords used in single-factor or multi- factor'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.27] Data acquisition should be performed using a three-step process: developing a plan to acquire the data, acquiring the data, and verifying the integrity of the acquired data. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.46] DISCUSSION Password-based authentication applies to passwords used in single-factor or multi- factor authentication.
+
+**Gold chunks:** nist-sp-800-86-p27-212bce774229, nist-sp-800-171r3-p46-c5bd11ae05f9
+
+**Evidence excerpts:** Data acquisition should be performed using a three-step process: developing a plan to acquire the data, acquiring the data, and verifying the integrity of the acquired data. | DISCUSSION Password-based authentication applies to passwords used in single-factor or multi- factor authentication.
+
+## EXP-131 - multi_document_synthesis
+
+For synthesis-review record MS-061, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'be necessary to provide the appropriate level of implementation detail for particular', while the other is 'Guide for Conducting Risk Assessments' with the relevant passage beginning '1 – Categorize Organizations can use initial risk assessments to make security'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.35] be necessary to provide the appropriate level of implementation detail for particular controls within the SDLC. [Guide for Conducting Risk Assessments, p.29] 1 – Categorize Organizations can use initial risk assessments to make security categorization decisions consistent with the risk management strategy provided by the risk executive (function) and as a preparatory step to security control selection.
+
+**Gold chunks:** nist-sp-800-53r5-p35-19b196f9ffd0, nist-sp-800-30r1-p29-5a2acbedbda7
+
+**Evidence excerpts:** be necessary to provide the appropriate level of implementation detail for particular controls within the SDLC. | 1 – Categorize Organizations can use initial risk assessments to make security categorization decisions consistent with the risk management strategy provided by the risk executive (function) and as a preparatory step to security control selection.
+
+## EXP-132 - multi_document_synthesis
+
+For synthesis-review record MS-062, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Assessing Security and Privacy Controls' with the relevant passage beginning '3.2.2 SELECT PROCEDURES TO ASSESS THE SECURITY AND PRIVACY CONTROLS SP 800-53A', while the other is 'An Introduction to Information Security' with the relevant passage beginning '4.1.4 Malicious Code Malicious code refers to viruses, Trojan horses, worms, logic'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.35] 3.2.2 SELECT PROCEDURES TO ASSESS THE SECURITY AND PRIVACY CONTROLS SP 800-53A provides assessment procedures for each security and privacy control and control enhancement in [SP 800-53 ]. [An Introduction to Information Security, p.33] 4.1.4 Malicious Code Malicious code refers to viruses, Trojan horses, worms, logic bombs, and any other software created for the purpose of attacking a platform.
+
+**Gold chunks:** nist-sp-800-53ar5-p35-ec5755a647ac, nist-sp-800-12r1-p33-de28f548bc62
+
+**Evidence excerpts:** 3.2.2 SELECT PROCEDURES TO ASSESS THE SECURITY AND PRIVACY CONTROLS SP 800-53A provides assessment procedures for each security and privacy control and control enhancement in [SP 800-53 ]. | 4.1.4 Malicious Code Malicious code refers to viruses, Trojan horses, worms, logic bombs, and any other software created for the purpose of attacking a platform.
+
+## EXP-133 - multi_document_synthesis
+
+For synthesis-review record MS-063, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'MANAGEMENT FRAMEWORK TASK STRUCTURE 3.1 PREPARE PREPARE TASKS—ORGANIZATION LEVEL Table 1 provides', while the other is 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'given the sole responsibility to photograph, document, and label every item that'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.30] MANAGEMENT FRAMEWORK TASK STRUCTURE 3.1 PREPARE PREPARE TASKS—ORGANIZATION LEVEL Table 1 provides a summary of tasks and expected outcomes for the RMF Prepare step at the organization level. [Guide to Integrating Forensic Techniques into Incident Response, p.28] given the sole responsibility to photograph, document, and label every item that is collected, and record every action that was taken along with who performed the action, where it was performed, and at what time.
+
+**Gold chunks:** nist-sp-800-37r2-p30-0bf8fbd140ab, nist-sp-800-86-p28-a4c4d41e3ab1
+
+**Evidence excerpts:** MANAGEMENT FRAMEWORK TASK STRUCTURE 3.1 PREPARE PREPARE TASKS—ORGANIZATION LEVEL Table 1 provides a summary of tasks and expected outcomes for the RMF Prepare step at the organization level. | given the sole responsibility to photograph, document, and label every item that is collected, and record every action that was taken along with who performed the action, where it was performed, and at what time.
+
+## EXP-134 - multi_document_synthesis
+
+For synthesis-review record MS-064, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Systems Security Engineering Volume 1' with the relevant passage beginning 'Each security policy rule must be accurate, consistent, compatible, and complete with', while the other is 'Security and Privacy Controls for Information Systems and Organizations' with the relevant passage beginning 'of organizations.2 Security controls are the safeguards or countermeasures employed within a'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.29] Each security policy rule must be accurate, consistent, compatible, and complete with respect to stakeholder objectives for the defined scope of control.22 Inconsistency, incompatibility, inaccuracy, or incompleteness in the security policy rules lead to protection gaps. [Security and Privacy Controls for Information Systems and Organizations, p.28] of organizations.2 Security controls are the safeguards or countermeasures employed within a system or an organization to protect the confidentiality, integrity, and availability of the system and its information and to manage information security3 risk.
+
+**Gold chunks:** nist-sp-800-160v1r1-p29-b7d356a5fcd3, nist-sp-800-53r5-p28-e9634c4bd412
+
+**Evidence excerpts:** Each security policy rule must be accurate, consistent, compatible, and complete with respect to stakeholder objectives for the defined scope of control.22 Inconsistency, incompatibility, inaccuracy, or incompleteness in the security policy rules lead to protection gaps. | of organizations.2 Security controls are the safeguards or countermeasures employed within a system or an organization to protect the confidentiality, integrity, and availability of the system and its information and to manage information security3 risk.
+
+## EXP-135 - multi_document_synthesis
+
+For synthesis-review record MS-065, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'in a technique that are defined by how the capabilities are implemented', while the other is 'Assessing Security and Privacy Controls' with the relevant passage beginning 'PREPARE FOR SECURITY AND PRIVACY CONTROL ASSESSMENTS SUMMARY Purpose Address a range'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.30] in a technique that are defined by how the capabilities are implemented or how the intended outcomes are achieved. [Assessing Security and Privacy Controls, p.30] PREPARE FOR SECURITY AND PRIVACY CONTROL ASSESSMENTS SUMMARY Purpose Address a range of issues pertaining to the cost, schedule, scope, and performance of the control assessment.
+
+**Gold chunks:** nist-sp-800-160v2r1-p30-ec41e3b16d14, nist-sp-800-53ar5-p30-cd61311962dc
+
+**Evidence excerpts:** in a technique that are defined by how the capabilities are implemented or how the intended outcomes are achieved. | PREPARE FOR SECURITY AND PRIVACY CONTROL ASSESSMENTS SUMMARY Purpose Address a range of issues pertaining to the cost, schedule, scope, and performance of the control assessment.
+
+## EXP-136 - multi_document_synthesis
+
+For synthesis-review record MS-066, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'an enterprise’s effort to identify C-SCRM priorities, develop solutions, and incorporate C-SCRM', while the other is 'Risk Management Framework for Information Systems and Organizations' with the relevant passage beginning 'the strategic vision and top-level goals and objectives for the organization, to'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.31] an enterprise’s effort to identify C-SCRM priorities, develop solutions, and incorporate C-SCRM into overall risk management decisions. [Risk Management Framework for Information Systems and Organizations, p.25] the strategic vision and top-level goals and objectives for the organization, to mid-level leaders planning, executing, and managing projects, to individuals developing, implementing, operating, and maintaining the systems supporting the organization’s missions and business functions.
+
+**Gold chunks:** nist-sp-800-161r1-p31-efe097734013, nist-sp-800-37r2-p25-833ae60d4dec
+
+**Evidence excerpts:** an enterprise’s effort to identify C-SCRM priorities, develop solutions, and incorporate C-SCRM into overall risk management decisions. | the strategic vision and top-level goals and objectives for the organization, to mid-level leaders planning, executing, and managing projects, to individuals developing, implementing, operating, and maintaining the systems supporting the organization’s missions and business functions.
+
+## EXP-137 - multi_document_synthesis
+
+For synthesis-review record MS-067, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Protect audit information and audit logging tools from unauthorized access, modification, and', while the other is 'Systems Security Engineering Volume 1' with the relevant passage beginning 'Figure 3 illustrates the relationship between the system of interest and its'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.36] Protect audit information and audit logging tools from unauthorized access, modification, and deletion. [Systems Security Engineering Volume 1, p.25] Figure 3 illustrates the relationship between the system of interest and its interfacing systems in both operational and non-operational (external) environments.
+
+**Gold chunks:** nist-sp-800-171r3-p36-1dd842e2b06b, nist-sp-800-160v1r1-p25-dc3bddc8e45f
+
+**Evidence excerpts:** Protect audit information and audit logging tools from unauthorized access, modification, and deletion. | Figure 3 illustrates the relationship between the system of interest and its interfacing systems in both operational and non-operational (external) environments.
+
+## EXP-138 - multi_document_synthesis
+
+For synthesis-review record MS-068, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide for Conducting Risk Assessments' with the relevant passage beginning 'Organization-wide assessments of risk can be based solely on the assumptions, constraints,', while the other is 'Cyber Resiliency Engineering Volume 2' with the relevant passage beginning 'Application: Used in engineering analysis to screen technologies, practices, products, controls, solutions,'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.27] Organization-wide assessments of risk can be based solely on the assumptions, constraints, risk tolerances, priorities, and trade-offs established in the risk framing step (i.e., derived primarily from Tier 1 activities). [Cyber Resiliency Engineering Volume 2, p.25] Application: Used in engineering analysis to screen technologies, practices, products, controls, solutions, or requirements; used in the system by implementing or integrating technologies, practices, products, or solutions.
+
+**Gold chunks:** nist-sp-800-30r1-p27-8939ecdda073, nist-sp-800-160v2r1-p25-69253ccc6368
+
+**Evidence excerpts:** Organization-wide assessments of risk can be based solely on the assumptions, constraints, risk tolerances, priorities, and trade-offs established in the risk framing step (i.e., derived primarily from Tier 1 activities). | Application: Used in engineering analysis to screen technologies, practices, products, controls, solutions, or requirements; used in the system by implementing or integrating technologies, practices, products, or solutions.
+
+## EXP-139 - multi_document_synthesis
+
+For synthesis-review record MS-069, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'An Introduction to Information Security' with the relevant passage beginning 'There are several techniques that an individual can use to gather information', while the other is 'Cybersecurity Supply Chain Risk Management Practices' with the relevant passage beginning 'are built on existing multidisciplinary practices and are intended to increase the'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [An Introduction to Information Security, p.31] There are several techniques that an individual can use to gather information they would otherwise not have had access to. [Cybersecurity Supply Chain Risk Management Practices, p.25] are built on existing multidisciplinary practices and are intended to increase the ability of enterprises to manage the associated cybersecurity risks throughout the supply chain over the entire life cycle of systems, products, and services.
+
+**Gold chunks:** nist-sp-800-12r1-p31-5a6b9b4b0cb5, nist-sp-800-161r1-p25-6808b356169b
+
+**Evidence excerpts:** There are several techniques that an individual can use to gather information they would otherwise not have had access to. | are built on existing multidisciplinary practices and are intended to increase the ability of enterprises to manage the associated cybersecurity risks throughout the supply chain over the entire life cycle of systems, products, and services.
+
+## EXP-140 - multi_document_synthesis
+
+For synthesis-review record MS-070, a governance lead must reconcile two evidence streams before authorizing an AI-enabled workflow: one is the frozen source 'Guide to Integrating Forensic Techniques into Incident Response' with the relevant passage beginning 'The analyst should create a plan that prioritizes the sources, establishing the', while the other is 'Protecting Controlled Unclassified Information in Nonfederal Systems' with the relevant passage beginning 'Routing remote access through managed access control points enhances explicit control over'. The team must not collapse distinct control, assessment, lifecycle, or resiliency concepts into one invented rule. Prepare a concise decision explanation that identifies what each source directly supports, where their scopes remain separate, and which claims must be deferred because neither source establishes them.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.27] The analyst should create a plan that prioritizes the sources, establishing the order in which the data should be acquired. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.25] Routing remote access through managed access control points enhances explicit control over such connections and reduces susceptibility to unauthorized access to the system, which could result in the unauthorized disclosure of CUI.
+
+**Gold chunks:** nist-sp-800-86-p27-be6040089720, nist-sp-800-171r3-p25-4c3d2c11766a
+
+**Evidence excerpts:** The analyst should create a plan that prioritizes the sources, establishing the order in which the data should be acquired. | Routing remote access through managed access control points enhances explicit control over such connections and reduces susceptibility to unauthorized access to the system, which could result in the unauthorized disclosure of CUI.
+
+## EXP-141 - scope_boundary
+
+For boundary-review record SB-001, during an audit-readiness workshop, a reviewer claims that the guidance in 'Security and Privacy Controls for Information Systems and Organizations', specifically the passage beginning 'of organizations.2 Security controls are the safeguards or countermeasures employed within a', automatically satisfies the different concern addressed by 'Security and Privacy Controls for Information Systems and Organizations', whose relevant passage begins 'and understanding of the organizational risk management strategy.17 The risk management strategy'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.28] of organizations.2 Security controls are the safeguards or countermeasures employed within a system or an organization to protect the confidentiality, integrity, and availability of the system and its information and to manage information security3 risk. [Security and Privacy Controls for Information Systems and Organizations, p.31] and understanding of the organizational risk management strategy.17 The risk management strategy considers the cost, schedule, performance, and supply chain issues associated with the design, development, acquisition, deployment, operation, sustainment, and disposal of organizational systems.
+
+**Gold chunks:** nist-sp-800-53r5-p28-e9634c4bd412, nist-sp-800-53r5-p31-c8d8570ee1bd
+
+**Evidence excerpts:** of organizations.2 Security controls are the safeguards or countermeasures employed within a system or an organization to protect the confidentiality, integrity, and availability of the system and its information and to manage information security3 risk. | and understanding of the organizational risk management strategy.17 The risk management strategy considers the cost, schedule, performance, and supply chain issues associated with the design, development, acquisition, deployment, operation, sustainment, and disposal of organizational systems.
+
+## EXP-142 - scope_boundary
+
+For boundary-review record SB-002, during an audit-readiness workshop, a reviewer claims that the guidance in 'Systems Security Engineering Volume 1', specifically the passage beginning 'Figure 3 illustrates the relationship between the system of interest and its', automatically satisfies the different concern addressed by 'Assessing Security and Privacy Controls', whose relevant passage begins 'Independent security and privacy control assessment services can be obtained from other'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.25] Figure 3 illustrates the relationship between the system of interest and its interfacing systems in both operational and non-operational (external) environments. [Assessing Security and Privacy Controls, p.33] Independent security and privacy control assessment services can be obtained from other elements within the organization or be contracted to a public or private sector entity outside of the organization.
+
+**Gold chunks:** nist-sp-800-160v1r1-p25-dc3bddc8e45f, nist-sp-800-53ar5-p33-a55d327062d2
+
+**Evidence excerpts:** Figure 3 illustrates the relationship between the system of interest and its interfacing systems in both operational and non-operational (external) environments. | Independent security and privacy control assessment services can be obtained from other elements within the organization or be contracted to a public or private sector entity outside of the organization.
+
+## EXP-143 - scope_boundary
+
+For boundary-review record SB-003, during an audit-readiness workshop, a reviewer claims that the guidance in 'Protecting Controlled Unclassified Information in Nonfederal Systems', specifically the passage beginning 'Routing remote access through managed access control points enhances explicit control over', automatically satisfies the different concern addressed by 'Risk Management Framework for Information Systems and Organizations', whose relevant passage begins '26 Impact of loss is one of four risk factors considered during'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.25] Routing remote access through managed access control points enhances explicit control over such connections and reduces susceptibility to unauthorized access to the system, which could result in the unauthorized disclosure of CUI. [Risk Management Framework for Information Systems and Organizations, p.27] 26 Impact of loss is one of four risk factors considered during risk assessment activities—the other three factors being threats, vulnerabilities, and likelihood of occurrence [SP 800-30].
+
+**Gold chunks:** nist-sp-800-171r3-p25-4c3d2c11766a, nist-sp-800-37r2-p27-7e715bfa8a16
+
+**Evidence excerpts:** Routing remote access through managed access control points enhances explicit control over such connections and reduces susceptibility to unauthorized access to the system, which could result in the unauthorized disclosure of CUI. | 26 Impact of loss is one of four risk factors considered during risk assessment activities—the other three factors being threats, vulnerabilities, and likelihood of occurrence [SP 800-30].
+
+## EXP-144 - scope_boundary
+
+For boundary-review record SB-004, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide to Integrating Forensic Techniques into Incident Response', specifically the passage beginning 'Performing the Forensic Process The most common goal of performing forensics is', automatically satisfies the different concern addressed by 'Systems Security Engineering Volume 1', whose relevant passage begins 'It is intended to inspire, guide, and inform the strategic direction for'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] Performing the Forensic Process The most common goal of performing forensics is to gain a better understanding of an event of interest by finding and analyzing the facts related to that event. [Systems Security Engineering Volume 1, p.27] It is intended to inspire, guide, and inform the strategic direction for the global systems engineering community.
+
+**Gold chunks:** nist-sp-800-86-p25-9eb650ea1092, nist-sp-800-160v1r1-p27-0da17de9dc72
+
+**Evidence excerpts:** Performing the Forensic Process The most common goal of performing forensics is to gain a better understanding of an event of interest by finding and analyzing the facts related to that event. | It is intended to inspire, guide, and inform the strategic direction for the global systems engineering community.
+
+## EXP-145 - scope_boundary
+
+For boundary-review record SB-005, during an audit-readiness workshop, a reviewer claims that the guidance in 'Risk Management Framework for Information Systems and Organizations', specifically the passage beginning 'using specific systems and includes activities that are essential to managing security', automatically satisfies the different concern addressed by 'Cyber Resiliency Engineering Volume 2', whose relevant passage begins 'and objectives can be viewed as two levels of fundamental objectives, as'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.26] using specific systems and includes activities that are essential to managing security and privacy risk appropriately throughout the organization. [Cyber Resiliency Engineering Volume 2, p.27] and objectives can be viewed as two levels of fundamental objectives, as used in Decision Theory [Clemen13].
+
+**Gold chunks:** nist-sp-800-37r2-p26-d22c4ff47ea0, nist-sp-800-160v2r1-p27-78078d905b2f
+
+**Evidence excerpts:** using specific systems and includes activities that are essential to managing security and privacy risk appropriately throughout the organization. | and objectives can be viewed as two levels of fundamental objectives, as used in Decision Theory [Clemen13].
+
+## EXP-146 - scope_boundary
+
+For boundary-review record SB-006, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cybersecurity Supply Chain Risk Management Practices', specifically the passage beginning 'the development and implementation of C-SCRM Strategies and Implementation Plans for development', automatically satisfies the different concern addressed by 'Cybersecurity Supply Chain Risk Management Practices', whose relevant passage begins '• NISTIR 7622, Notional Supply Chain Risk Management Practices for Federal Information'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.25] the development and implementation of C-SCRM Strategies and Implementation Plans for development at the enterprise and mission and business level of an enterprise and a C-SCRM system plan at the operational level of an enterprise. [Cybersecurity Supply Chain Risk Management Practices, p.27] • NISTIR 7622, Notional Supply Chain Risk Management Practices for Federal Information Systems: Provides a wide array of practices that help mitigate supply chain risk to federal information systems.
+
+**Gold chunks:** nist-sp-800-161r1-p25-b4f47d160027, nist-sp-800-161r1-p27-41dc658891bf
+
+**Evidence excerpts:** the development and implementation of C-SCRM Strategies and Implementation Plans for development at the enterprise and mission and business level of an enterprise and a C-SCRM system plan at the operational level of an enterprise. | • NISTIR 7622, Notional Supply Chain Risk Management Practices for Federal Information Systems: Provides a wide array of practices that help mitigate supply chain risk to federal information systems.
+
+## EXP-147 - scope_boundary
+
+For boundary-review record SB-007, during an audit-readiness workshop, a reviewer claims that the guidance in 'An Introduction to Information Security', specifically the passage beginning 'has the overall responsibility and accountability for ensuring the agency’s implementation of', automatically satisfies the different concern addressed by 'Protecting Controlled Unclassified Information in Nonfederal Systems', whose relevant passage begins 'For example, organizations may determine that systems must have the capability to'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [An Introduction to Information Security, p.25] has the overall responsibility and accountability for ensuring the agency’s implementation of information privacy protections, including the agency’s full compliance with federal laws, regulations, and policies relating to information privacy, such as the Privacy Act. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.32] For example, organizations may determine that systems must have the capability to log every file access — both successful and unsuccessful — but only activate that capability under specific circumstances due to the potential burden on system performance.
+
+**Gold chunks:** nist-sp-800-12r1-p25-8fcc2dc53424, nist-sp-800-171r3-p32-be76814c1e30
+
+**Evidence excerpts:** has the overall responsibility and accountability for ensuring the agency’s implementation of information privacy protections, including the agency’s full compliance with federal laws, regulations, and policies relating to information privacy, such as the Privacy Act. | For example, organizations may determine that systems must have the capability to log every file access — both successful and unsuccessful — but only activate that capability under specific circumstances due to the potential burden on system performance.
+
+## EXP-148 - scope_boundary
+
+For boundary-review record SB-008, during an audit-readiness workshop, a reviewer claims that the guidance in 'Assessing Security and Privacy Controls', specifically the passage beginning 'and privacy control assessments in parallel with the development/acquisition and implementation phases', automatically satisfies the different concern addressed by 'Guide for Conducting Risk Assessments', whose relevant passage begins 'and contractors to support organizational missions/business functions; (iv) the development of risk-aware'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.31] and privacy control assessments in parallel with the development/acquisition and implementation phases of the life cycle allows for the early identification of weaknesses and deficiencies and provides the most cost-effective method for initiating corrective actions. [Guide for Conducting Risk Assessments, p.26] and contractors to support organizational missions/business functions; (iv) the development of risk-aware mission/business processes; and (v) the interpretation of information security policies with respect to organizational information systems and environments in which those systems operate.
+
+**Gold chunks:** nist-sp-800-53ar5-p31-f92b9faa34c2, nist-sp-800-30r1-p26-2caf715e2a17
+
+**Evidence excerpts:** and privacy control assessments in parallel with the development/acquisition and implementation phases of the life cycle allows for the early identification of weaknesses and deficiencies and provides the most cost-effective method for initiating corrective actions. | and contractors to support organizational missions/business functions; (iv) the development of risk-aware mission/business processes; and (v) the interpretation of information security policies with respect to organizational information systems and environments in which those systems operate.
+
+## EXP-149 - scope_boundary
+
+For boundary-review record SB-009, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cyber Resiliency Engineering Volume 2', specifically the passage beginning 'Informed preparedness involves contingency planning, including plans for mitigating and investigating threat', automatically satisfies the different concern addressed by 'An Introduction to Information Security', whose relevant passage begins 'In the government, this office is often responsible for processing personnel background'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.26] Informed preparedness involves contingency planning, including plans for mitigating and investigating threat events as well as for responding to discoveries of vulnerabilities or supply chain compromises. [An Introduction to Information Security, p.28] In the government, this office is often responsible for processing personnel background checks and security clearances.
+
+**Gold chunks:** nist-sp-800-160v2r1-p26-9d1fc6eeb0a9, nist-sp-800-12r1-p28-9f858202684b
+
+**Evidence excerpts:** Informed preparedness involves contingency planning, including plans for mitigating and investigating threat events as well as for responding to discoveries of vulnerabilities or supply chain compromises. | In the government, this office is often responsible for processing personnel background checks and security clearances.
+
+## EXP-150 - scope_boundary
+
+For boundary-review record SB-010, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide for Conducting Risk Assessments', specifically the passage beginning 'factors, a fixed assessment scale for each factor, and a fixed algorithm', automatically satisfies the different concern addressed by 'Guide to Integrating Forensic Techniques into Incident Response', whose relevant passage begins 'For example, as described in Sections 6 and 7, there are usually'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] factors, a fixed assessment scale for each factor, and a fixed algorithm for combining factors) cannot meet the diverse needs of the organizations in the public and private sectors that rely on Special Publication 800-30. [Guide to Integrating Forensic Techniques into Incident Response, p.26] For example, as described in Sections 6 and 7, there are usually many sources of information within an organization regarding network activity and application usage.
+
+**Gold chunks:** nist-sp-800-30r1-p25-14a451dd7b96, nist-sp-800-86-p26-bee510009fbe
+
+**Evidence excerpts:** factors, a fixed assessment scale for each factor, and a fixed algorithm for combining factors) cannot meet the diverse needs of the organizations in the public and private sectors that rely on Special Publication 800-30. | For example, as described in Sections 6 and 7, there are usually many sources of information within an organization regarding network activity and application usage.
+
+## EXP-151 - scope_boundary
+
+For boundary-review record SB-011, during an audit-readiness workshop, a reviewer claims that the guidance in 'Security and Privacy Controls for Information Systems and Organizations', specifically the passage beginning 'It accomplishes this objective by providing a comprehensive and flexible catalog of', automatically satisfies the different concern addressed by 'Security and Privacy Controls for Information Systems and Organizations', whose relevant passage begins 'from the processing of personally identifiable information (PII) in varied operational, environmental,'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.29] It accomplishes this objective by providing a comprehensive and flexible catalog of security and privacy controls to meet current and future protection needs based on changing threats, vulnerabilities, requirements, and technologies. [Security and Privacy Controls for Information Systems and Organizations, p.31] from the processing of personally identifiable information (PII) in varied operational, environmental, and technical scenarios.
+
+**Gold chunks:** nist-sp-800-53r5-p29-0e1699f69a50, nist-sp-800-53r5-p31-0eb73b49db89
+
+**Evidence excerpts:** It accomplishes this objective by providing a comprehensive and flexible catalog of security and privacy controls to meet current and future protection needs based on changing threats, vulnerabilities, requirements, and technologies. | from the processing of personally identifiable information (PII) in varied operational, environmental, and technical scenarios.
+
+## EXP-152 - scope_boundary
+
+For boundary-review record SB-012, during an audit-readiness workshop, a reviewer claims that the guidance in 'Systems Security Engineering Volume 1', specifically the passage beginning 'in terms of its developmental role as part of capability acquisition, systems', automatically satisfies the different concern addressed by 'Assessing Security and Privacy Controls', whose relevant passage begins 'the assessments is centrally managed by the organization to ensure a cost-effective'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] in terms of its developmental role as part of capability acquisition, systems engineering efforts and responsibilities do not end once a system completes development and is transitioned to the operational environment for day- to-day use. [Assessing Security and Privacy Controls, p.33] the assessments is centrally managed by the organization to ensure a cost-effective use of time and resources.
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-d57bcb2020b3, nist-sp-800-53ar5-p33-5fe0c7f49e97
+
+**Evidence excerpts:** in terms of its developmental role as part of capability acquisition, systems engineering efforts and responsibilities do not end once a system completes development and is transitioned to the operational environment for day- to-day use. | the assessments is centrally managed by the organization to ensure a cost-effective use of time and resources.
+
+## EXP-153 - scope_boundary
+
+For boundary-review record SB-013, during an audit-readiness workshop, a reviewer claims that the guidance in 'Protecting Controlled Unclassified Information in Nonfederal Systems', specifically the passage beginning 'The processing, storage, and transmission capabilities of mobile devices may be comparable', automatically satisfies the different concern addressed by 'Risk Management Framework for Information Systems and Organizations', whose relevant passage begins 'controls on an ongoing basis to include assessing control effectiveness, documenting changes'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.27] The processing, storage, and transmission capabilities of mobile devices may be comparable to or a subset of notebook or desktop systems, depending on the nature and intended purpose of the device. [Risk Management Framework for Information Systems and Organizations, p.28] controls on an ongoing basis to include assessing control effectiveness, documenting changes to the system and environment of operation, conducting risk assessments and impact analyses, and reporting the security and privacy posture of the system.
+
+**Gold chunks:** nist-sp-800-171r3-p27-f1277d6fa706, nist-sp-800-37r2-p28-6408ff8f6c91
+
+**Evidence excerpts:** The processing, storage, and transmission capabilities of mobile devices may be comparable to or a subset of notebook or desktop systems, depending on the nature and intended purpose of the device. | controls on an ongoing basis to include assessing control effectiveness, documenting changes to the system and environment of operation, conducting risk assessments and impact analyses, and reporting the security and privacy posture of the system.
+
+## EXP-154 - scope_boundary
+
+For boundary-review record SB-014, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide to Integrating Forensic Techniques into Incident Response', specifically the passage beginning 'many other forensic process models that reflect the same basic principles and', automatically satisfies the different concern addressed by 'Systems Security Engineering Volume 1', whose relevant passage begins 'A systems engineering perspective on security requires an understanding of the concept'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] many other forensic process models that reflect the same basic principles and overall methodology. [Systems Security Engineering Volume 1, p.28] A systems engineering perspective on security requires an understanding of the concept of security (Section 3.1), the concept of an adequately secure system (Section 3.2 ), and the characteristics of systems (Section 3.3).
+
+**Gold chunks:** nist-sp-800-86-p25-d4db7e97fd86, nist-sp-800-160v1r1-p28-684162daf779
+
+**Evidence excerpts:** many other forensic process models that reflect the same basic principles and overall methodology. | A systems engineering perspective on security requires an understanding of the concept of security (Section 3.1), the concept of an adequately secure system (Section 3.2 ), and the characteristics of systems (Section 3.3).
+
+## EXP-155 - scope_boundary
+
+For boundary-review record SB-015, during an audit-readiness workshop, a reviewer claims that the guidance in 'Risk Management Framework for Information Systems and Organizations', specifically the passage beginning 'is guided and informed by the risk decisions at the organization and', automatically satisfies the different concern addressed by 'Cyber Resiliency Engineering Volume 2', whose relevant passage begins 'This objective also relates to an organization’s use of forensics and cyber'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.27] is guided and informed by the risk decisions at the organization and mission/business process levels. [Cyber Resiliency Engineering Volume 2, p.28] This objective also relates to an organization’s use of forensics and cyber threat intelligence information sharing.
+
+**Gold chunks:** nist-sp-800-37r2-p27-dd9ef41915ed, nist-sp-800-160v2r1-p28-536299ef2073
+
+**Evidence excerpts:** is guided and informed by the risk decisions at the organization and mission/business process levels. | This objective also relates to an organization’s use of forensics and cyber threat intelligence information sharing.
+
+## EXP-156 - scope_boundary
+
+For boundary-review record SB-016, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cybersecurity Supply Chain Risk Management Practices', specifically the passage beginning '• SP 800-30, Revision 1, Guide for Conducting Risk Assessments: Guidance for', automatically satisfies the different concern addressed by 'Cybersecurity Supply Chain Risk Management Practices', whose relevant passage begins 'The Key Practices presented in this document can be used to implement'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.26] • SP 800-30, Revision 1, Guide for Conducting Risk Assessments: Guidance for conducting risk assessments of federal information systems and organizations, amplifying the guidance in SP 800-39. [Cybersecurity Supply Chain Risk Management Practices, p.27] The Key Practices presented in this document can be used to implement a robust C-SCRM function at an organization of any size, scope, and complexity.
+
+**Gold chunks:** nist-sp-800-161r1-p26-afb7cb513852, nist-sp-800-161r1-p27-d52d70baf4a5
+
+**Evidence excerpts:** • SP 800-30, Revision 1, Guide for Conducting Risk Assessments: Guidance for conducting risk assessments of federal information systems and organizations, amplifying the guidance in SP 800-39. | The Key Practices presented in this document can be used to implement a robust C-SCRM function at an organization of any size, scope, and complexity.
+
+## EXP-157 - scope_boundary
+
+For boundary-review record SB-017, during an audit-readiness workshop, a reviewer claims that the guidance in 'An Introduction to Information Security', specifically the passage beginning 'to protect the organization’s core missions and business processes are adequately addressed', automatically satisfies the different concern addressed by 'Protecting Controlled Unclassified Information in Nonfederal Systems', whose relevant passage begins 'DISCUSSION Audit record content that may be necessary to support the auditing'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [An Introduction to Information Security, p.26] to protect the organization’s core missions and business processes are adequately addressed in all aspects of enterprise architecture, including reference models, segment and solution models, and the resulting systems supporting those missions and business processes. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.32] DISCUSSION Audit record content that may be necessary to support the auditing function includes time stamps, source and destination addresses, user or process identifiers, event descriptions, file names, and the access control or flow control rules that are invoked.
+
+**Gold chunks:** nist-sp-800-12r1-p26-a3fdec0809fa, nist-sp-800-171r3-p32-f336a7105fe8
+
+**Evidence excerpts:** to protect the organization’s core missions and business processes are adequately addressed in all aspects of enterprise architecture, including reference models, segment and solution models, and the resulting systems supporting those missions and business processes. | DISCUSSION Audit record content that may be necessary to support the auditing function includes time stamps, source and destination addresses, user or process identifiers, event descriptions, file names, and the access control or flow control rules that are invoked.
+
+## EXP-158 - scope_boundary
+
+For boundary-review record SB-018, during an audit-readiness workshop, a reviewer claims that the guidance in 'Assessing Security and Privacy Controls', specifically the passage beginning 'and technical expertise to successfully carry out assessments of system- specific, hybrid,', automatically satisfies the different concern addressed by 'Guide for Conducting Risk Assessments', whose relevant passage begins 'Risk assessments can also inform other risk management activities across the three'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.33] and technical expertise to successfully carry out assessments of system- specific, hybrid, and common controls.33 Skills and expertise includes knowledge of and experience with the specific hardware, software, and firmware components employed by the organization. [Guide for Conducting Risk Assessments, p.27] Risk assessments can also inform other risk management activities across the three tiers that are not security-related.
+
+**Gold chunks:** nist-sp-800-53ar5-p33-fab3a22676cc, nist-sp-800-30r1-p27-7b3ed0c88779
+
+**Evidence excerpts:** and technical expertise to successfully carry out assessments of system- specific, hybrid, and common controls.33 Skills and expertise includes knowledge of and experience with the specific hardware, software, and firmware components employed by the organization. | Risk assessments can also inform other risk management activities across the three tiers that are not security-related.
+
+## EXP-159 - scope_boundary
+
+For boundary-review record SB-019, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cyber Resiliency Engineering Volume 2', specifically the passage beginning 'Risk avoidance or threat avoidance is one possible risk response approach and', automatically satisfies the different concern addressed by 'An Introduction to Information Security', whose relevant passage begins 'The procurement (or acquisitions) office is responsible for ensuring that organizational procurements'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.27] Risk avoidance or threat avoidance is one possible risk response approach and is feasible under restricted circumstances. [An Introduction to Information Security, p.28] The procurement (or acquisitions) office is responsible for ensuring that organizational procurements have been reviewed by appropriate officials.
+
+**Gold chunks:** nist-sp-800-160v2r1-p27-82703a2a2ba9, nist-sp-800-12r1-p28-e49d7b910f4d
+
+**Evidence excerpts:** Risk avoidance or threat avoidance is one possible risk response approach and is feasible under restricted circumstances. | The procurement (or acquisitions) office is responsible for ensuring that organizational procurements have been reviewed by appropriate officials.
+
+## EXP-160 - scope_boundary
+
+For boundary-review record SB-020, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide for Conducting Risk Assessments', specifically the passage beginning '2.4 APPLICATION OF RISK ASSESSMENTS As stated previously, risk assessments can be', automatically satisfies the different concern addressed by 'Guide to Integrating Forensic Techniques into Incident Response', whose relevant passage begins 'The situation can become even more complicated if locations outside the organizations'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.26] 2.4 APPLICATION OF RISK ASSESSMENTS As stated previously, risk assessments can be conducted at all three tiers in the risk management hierarchy—organization level, mission/business process level, and information system level. [Guide to Integrating Forensic Techniques into Incident Response, p.26] The situation can become even more complicated if locations outside the organizations control are involved, such as an incident involving a computer at a telecommuters home office.
+
+**Gold chunks:** nist-sp-800-30r1-p26-6d20e40e8a54, nist-sp-800-86-p26-07cc6039802d
+
+**Evidence excerpts:** 2.4 APPLICATION OF RISK ASSESSMENTS As stated previously, risk assessments can be conducted at all three tiers in the risk management hierarchy—organization level, mission/business process level, and information system level. | The situation can become even more complicated if locations outside the organizations control are involved, such as an incident involving a computer at a telecommuters home office.
+
+## EXP-161 - scope_boundary
+
+For boundary-review record SB-021, during an audit-readiness workshop, a reviewer claims that the guidance in 'Security and Privacy Controls for Information Systems and Organizations', specifically the passage beginning 'Security and privacy risks arise from the planning and execution of organizational', automatically satisfies the different concern addressed by 'Security and Privacy Controls for Information Systems and Organizations', whose relevant passage begins 'a diverse set of security and privacy requirements that have been levied'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.31] Security and privacy risks arise from the planning and execution of organizational mission and business functions, placing information systems into operation, or continuing system operations. [Security and Privacy Controls for Information Systems and Organizations, p.32] a diverse set of security and privacy requirements that have been levied on information systems and organizations and that are consistent with and complementary to other recognized national and international information security and privacy standards.
+
+**Gold chunks:** nist-sp-800-53r5-p31-90b96662d546, nist-sp-800-53r5-p32-981335787da3
+
+**Evidence excerpts:** Security and privacy risks arise from the planning and execution of organizational mission and business functions, placing information systems into operation, or continuing system operations. | a diverse set of security and privacy requirements that have been levied on information systems and organizations and that are consistent with and complementary to other recognized national and international information security and privacy standards.
+
+## EXP-162 - scope_boundary
+
+For boundary-review record SB-022, during an audit-readiness workshop, a reviewer claims that the guidance in 'Systems Security Engineering Volume 1', specifically the passage beginning 'and development; engineering and manufacturing development; production and deployment; training, operations, and', automatically satisfies the different concern addressed by 'Assessing Security and Privacy Controls', whose relevant passage begins 'SECURITY AND PRIVACY PLANS SUMMARY Purpose Provide the objectives for the security'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] and development; engineering and manufacturing development; production and deployment; training, operations, and support; and retirement and disposal. [Assessing Security and Privacy Controls, p.34] SECURITY AND PRIVACY PLANS SUMMARY Purpose Provide the objectives for the security and privacy control assessments, as well as a detailed roadmap of how to conduct such assessments based on the security and privacy plan(s).
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-5899a035367b, nist-sp-800-53ar5-p34-7376367afd05
+
+**Evidence excerpts:** and development; engineering and manufacturing development; production and deployment; training, operations, and support; and retirement and disposal. | SECURITY AND PRIVACY PLANS SUMMARY Purpose Provide the objectives for the security and privacy control assessments, as well as a detailed roadmap of how to conduct such assessments based on the security and privacy plan(s).
+
+## EXP-163 - scope_boundary
+
+For boundary-review record SB-023, during an audit-readiness workshop, a reviewer claims that the guidance in 'Protecting Controlled Unclassified Information in Nonfederal Systems', specifically the passage beginning 'Potential indicators and possible precursors of insider threats include behaviors such as', automatically satisfies the different concern addressed by 'Risk Management Framework for Information Systems and Organizations', whose relevant passage begins 'Although the risk management approach in Figure 1 is conveyed as hierarchical,'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.30] Potential indicators and possible precursors of insider threats include behaviors such as inordinate, long-term job dissatisfaction; attempts to gain access to information that is not required for job performance; unexplained access to financial resources; sexual harassment or bullying of fellow employees; workplace violence; and other serious violations of the policies, procedures, rules, directives, or practices of organizations. [Risk Management Framework for Information Systems and Organizations, p.29] Although the risk management approach in Figure 1 is conveyed as hierarchical, project and organization dynamics are typically more complex.
+
+**Gold chunks:** nist-sp-800-171r3-p30-2d5cec3e193f, nist-sp-800-37r2-p29-dc059c2b7803
+
+**Evidence excerpts:** Potential indicators and possible precursors of insider threats include behaviors such as inordinate, long-term job dissatisfaction; attempts to gain access to information that is not required for job performance; unexplained access to financial resources; sexual harassment or bullying of fellow employees; workplace violence; and other serious violations of the policies, procedures, rules, directives, or practices of organizations. | Although the risk management approach in Figure 1 is conveyed as hierarchical, project and organization dynamics are typically more complex.
+
+## EXP-164 - scope_boundary
+
+For boundary-review record SB-024, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide to Integrating Forensic Techniques into Incident Response', specifically the passage beginning 'as CDs and DVDs, and also have several types of ports (e.g.,', automatically satisfies the different concern addressed by 'Systems Security Engineering Volume 1', whose relevant passage begins 'needs, specific viewpoints (Section 3.8) and how security is demonstrated are considered,'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.26] as CDs and DVDs, and also have several types of ports (e.g., Universal Serial Bus [USB], Firewire, Personal Computer Memory Card International Association [PCMCIA]) to which external data storage media and devices can be attached. [Systems Security Engineering Volume 1, p.28] needs, specific viewpoints (Section 3.8) and how security is demonstrated are considered, including what is adequate (Section 3.9).
+
+**Gold chunks:** nist-sp-800-86-p26-2343c6b38df3, nist-sp-800-160v1r1-p28-0cc4b38bae46
+
+**Evidence excerpts:** as CDs and DVDs, and also have several types of ports (e.g., Universal Serial Bus [USB], Firewire, Personal Computer Memory Card International Association [PCMCIA]) to which external data storage media and devices can be attached. | needs, specific viewpoints (Section 3.8) and how security is demonstrated are considered, including what is adequate (Section 3.9).
+
+## EXP-165 - scope_boundary
+
+For boundary-review record SB-025, during an audit-readiness workshop, a reviewer claims that the guidance in 'Risk Management Framework for Information Systems and Organizations', specifically the passage beginning 'the strategic vision and top-level goals and objectives for the organization, to', automatically satisfies the different concern addressed by 'Cyber Resiliency Engineering Volume 2', whose relevant passage begins 'and mission architectures, which include the technical architecture of the system-of-systems supporting'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.25] the strategic vision and top-level goals and objectives for the organization, to mid-level leaders planning, executing, and managing projects, to individuals developing, implementing, operating, and maintaining the systems supporting the organization’s missions and business functions. [Cyber Resiliency Engineering Volume 2, p.28] and mission architectures, which include the technical architecture of the system-of-systems supporting a mission or business function.
+
+**Gold chunks:** nist-sp-800-37r2-p25-833ae60d4dec, nist-sp-800-160v2r1-p28-a9e4643b662f
+
+**Evidence excerpts:** the strategic vision and top-level goals and objectives for the organization, to mid-level leaders planning, executing, and managing projects, to individuals developing, implementing, operating, and maintaining the systems supporting the organization’s missions and business functions. | and mission architectures, which include the technical architecture of the system-of-systems supporting a mission or business function.
+
+## EXP-166 - scope_boundary
+
+For boundary-review record SB-026, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cybersecurity Supply Chain Risk Management Practices', specifically the passage beginning 'are built on existing multidisciplinary practices and are intended to increase the', automatically satisfies the different concern addressed by 'Cybersecurity Supply Chain Risk Management Practices', whose relevant passage begins 'To support the development of an Enterprise Risk Register, this report describes'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.25] are built on existing multidisciplinary practices and are intended to increase the ability of enterprises to manage the associated cybersecurity risks throughout the supply chain over the entire life cycle of systems, products, and services. [Cybersecurity Supply Chain Risk Management Practices, p.27] To support the development of an Enterprise Risk Register, this report describes the documentation of various scenarios based on the potential impact of threats and vulnerabilities on enterprise assets.
+
+**Gold chunks:** nist-sp-800-161r1-p25-6808b356169b, nist-sp-800-161r1-p27-c2d18409b200
+
+**Evidence excerpts:** are built on existing multidisciplinary practices and are intended to increase the ability of enterprises to manage the associated cybersecurity risks throughout the supply chain over the entire life cycle of systems, products, and services. | To support the development of an Enterprise Risk Register, this report describes the documentation of various scenarios based on the potential impact of threats and vulnerabilities on enterprise assets.
+
+## EXP-167 - scope_boundary
+
+For boundary-review record SB-027, during an audit-readiness workshop, a reviewer claims that the guidance in 'An Introduction to Information Security', specifically the passage beginning 'of an authorizing official to coordinate and conduct the required day-to-day activities', automatically satisfies the different concern addressed by 'Protecting Controlled Unclassified Information in Nonfederal Systems', whose relevant passage begins 'Generate audit records for the selected event types and audit record content'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [An Introduction to Information Security, p.25] of an authorizing official to coordinate and conduct the required day-to-day activities associated by the security authorization process. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.33] Generate audit records for the selected event types and audit record content specified in 03.03.01 and 03.03.02.
+
+**Gold chunks:** nist-sp-800-12r1-p25-46416c32b117, nist-sp-800-171r3-p33-54b6b8592942
+
+**Evidence excerpts:** of an authorizing official to coordinate and conduct the required day-to-day activities associated by the security authorization process. | Generate audit records for the selected event types and audit record content specified in 03.03.01 and 03.03.02.
+
+## EXP-168 - scope_boundary
+
+For boundary-review record SB-028, during an audit-readiness workshop, a reviewer claims that the guidance in 'Assessing Security and Privacy Controls', specifically the passage beginning 'preparation by the organization and assessors is an important aspect of conducting', automatically satisfies the different concern addressed by 'Guide for Conducting Risk Assessments', whose relevant passage begins 'At Tier 3, risk assessments can inform assessments of cost, schedule, and'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.31] preparation by the organization and assessors is an important aspect of conducting effective security and privacy control assessments. [Guide for Conducting Risk Assessments, p.27] At Tier 3, risk assessments can inform assessments of cost, schedule, and performance risks associated with information systems, with information security experts coordinating with program managers, information system owners, and authorizing officials.
+
+**Gold chunks:** nist-sp-800-53ar5-p31-9fc8db8ef3d1, nist-sp-800-30r1-p27-dc97d04f5dc8
+
+**Evidence excerpts:** preparation by the organization and assessors is an important aspect of conducting effective security and privacy control assessments. | At Tier 3, risk assessments can inform assessments of cost, schedule, and performance risks associated with information systems, with information security experts coordinating with program managers, information system owners, and authorizing officials.
+
+## EXP-169 - scope_boundary
+
+For boundary-review record SB-029, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cyber Resiliency Engineering Volume 2', specifically the passage beginning 'Provide a sufficient level of cyber resiliency to meet stakeholder needs and', automatically satisfies the different concern addressed by 'An Introduction to Information Security', whose relevant passage begins 'point-of-contact for managers who require assistance in determining whether or not a'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.25] Provide a sufficient level of cyber resiliency to meet stakeholder needs and reduce risks to mission or business capabilities in the presence of advanced persistent threats. [An Introduction to Information Security, p.28] point-of-contact for managers who require assistance in determining whether or not a security background investigation is necessary for a particular position.
+
+**Gold chunks:** nist-sp-800-160v2r1-p25-355745448bc4, nist-sp-800-12r1-p28-5d9b4cf1c8a0
+
+**Evidence excerpts:** Provide a sufficient level of cyber resiliency to meet stakeholder needs and reduce risks to mission or business capabilities in the presence of advanced persistent threats. | point-of-contact for managers who require assistance in determining whether or not a security background investigation is necessary for a particular position.
+
+## EXP-170 - scope_boundary
+
+For boundary-review record SB-030, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide for Conducting Risk Assessments', specifically the passage beginning 'For example, organizations can use coarse or high-level risk models early in', automatically satisfies the different concern addressed by 'Guide to Integrating Forensic Techniques into Incident Response', whose relevant passage begins 'For example, as described in Section 5.1.1, most OSs can be configured'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] For example, organizations can use coarse or high-level risk models early in the system development life cycle to select security controls, and subsequently, more detailed models to assess risk to given missions or business functions. [Guide to Integrating Forensic Techniques into Incident Response, p.26] For example, as described in Section 5.1.1, most OSs can be configured to audit and record certain types of events, such as authentication attempts and security policy changes, as part of normal operations.
+
+**Gold chunks:** nist-sp-800-30r1-p25-16bfdc3f4401, nist-sp-800-86-p26-a13d7dab596c
+
+**Evidence excerpts:** For example, organizations can use coarse or high-level risk models early in the system development life cycle to select security controls, and subsequently, more detailed models to assess risk to given missions or business functions. | For example, as described in Section 5.1.1, most OSs can be configured to audit and record certain types of events, such as authentication attempts and security policy changes, as part of normal operations.
+
+## EXP-171 - scope_boundary
+
+For boundary-review record SB-031, during an audit-readiness workshop, a reviewer claims that the guidance in 'Security and Privacy Controls for Information Systems and Organizations', specifically the passage beginning 'well-defined risk management process that supports organizational information security and privacy programs.', automatically satisfies the different concern addressed by 'Security and Privacy Controls for Information Systems and Organizations', whose relevant passage begins 'For federal information security and privacy policies, the term requirement is generally'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Security and Privacy Controls for Information Systems and Organizations, p.29] well-defined risk management process that supports organizational information security and privacy programs. [Security and Privacy Controls for Information Systems and Organizations, p.34] For federal information security and privacy policies, the term requirement is generally used to refer to information security and privacy obligations imposed on organizations.
+
+**Gold chunks:** nist-sp-800-53r5-p29-07fbb6eec6ec, nist-sp-800-53r5-p34-caba66a41702
+
+**Evidence excerpts:** well-defined risk management process that supports organizational information security and privacy programs. | For federal information security and privacy policies, the term requirement is generally used to refer to information security and privacy obligations imposed on organizations.
+
+## EXP-172 - scope_boundary
+
+For boundary-review record SB-032, during an audit-readiness workshop, a reviewer claims that the guidance in 'Systems Security Engineering Volume 1', specifically the passage beginning 'Systems engineering is outcome-oriented and leverages engineering processes to realize a system', automatically satisfies the different concern addressed by 'Assessing Security and Privacy Controls', whose relevant passage begins 'and privacy control assessments, respectively, as well as a detailed roadmap of'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Systems Security Engineering Volume 1, p.26] Systems engineering is outcome-oriented and leverages engineering processes to realize a system while effectively managing complexity and serving as the principal integrating mechanism for the technical, management, and support activities related to the engineering effort. [Assessing Security and Privacy Controls, p.34] and privacy control assessments, respectively, as well as a detailed roadmap of how to conduct such assessments.
+
+**Gold chunks:** nist-sp-800-160v1r1-p26-ad9288ae819e, nist-sp-800-53ar5-p34-ce1abbf39f9e
+
+**Evidence excerpts:** Systems engineering is outcome-oriented and leverages engineering processes to realize a system while effectively managing complexity and serving as the principal integrating mechanism for the technical, management, and support activities related to the engineering effort. | and privacy control assessments, respectively, as well as a detailed roadmap of how to conduct such assessments.
+
+## EXP-173 - scope_boundary
+
+For boundary-review record SB-033, during an audit-readiness workshop, a reviewer claims that the guidance in 'Protecting Controlled Unclassified Information in Nonfederal Systems', specifically the passage beginning 'Implement full-device or container-based encryption to protect the confidentiality of CUI on', automatically satisfies the different concern addressed by 'Risk Management Framework for Information Systems and Organizations', whose relevant passage begins 'Each step in the RMF has a purpose statement, a defined set'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Protecting Controlled Unclassified Information in Nonfederal Systems, p.26] Implement full-device or container-based encryption to protect the confidentiality of CUI on mobile devices. [Risk Management Framework for Information Systems and Organizations, p.29] Each step in the RMF has a purpose statement, a defined set of outcomes, and a set of tasks that are carried out to achieve those outcomes.
+
+**Gold chunks:** nist-sp-800-171r3-p26-d740eac3259b, nist-sp-800-37r2-p29-aa1510b63f74
+
+**Evidence excerpts:** Implement full-device or container-based encryption to protect the confidentiality of CUI on mobile devices. | Each step in the RMF has a purpose statement, a defined set of outcomes, and a set of tasks that are carried out to achieve those outcomes.
+
+## EXP-174 - scope_boundary
+
+For boundary-review record SB-034, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide to Integrating Forensic Techniques into Incident Response', specifically the passage beginning 'of the analysis, which may include describing the actions performed, determining what', automatically satisfies the different concern addressed by 'Systems Security Engineering Volume 1', whose relevant passage begins 'the user • Design intent: The system behaviors and outcomes to be'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide to Integrating Forensic Techniques into Incident Response, p.25] of the analysis, which may include describing the actions performed, determining what other actions need to be performed, and recommending improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. [Systems Security Engineering Volume 1, p.28] the user • Design intent: The system behaviors and outcomes to be achieved by the design A system that delivers a capability per the design intent but inconsistent with the user intent constitutes a loss.
+
+**Gold chunks:** nist-sp-800-86-p25-029408be0c54, nist-sp-800-160v1r1-p28-3933dd33ac60
+
+**Evidence excerpts:** of the analysis, which may include describing the actions performed, determining what other actions need to be performed, and recommending improvements to policies, guidelines, procedures, tools, and other aspects of the forensic process. | the user • Design intent: The system behaviors and outcomes to be achieved by the design A system that delivers a capability per the design intent but inconsistent with the user intent constitutes a loss.
+
+## EXP-175 - scope_boundary
+
+For boundary-review record SB-035, during an audit-readiness workshop, a reviewer claims that the guidance in 'Risk Management Framework for Information Systems and Organizations', specifically the passage beginning '21 Enterprise architecture defines the mission, information, and the technologies necessary to', automatically satisfies the different concern addressed by 'Cyber Resiliency Engineering Volume 2', whose relevant passage begins 'the organization’s missions and business functions or operational concept for the system'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Risk Management Framework for Information Systems and Organizations, p.26] 21 Enterprise architecture defines the mission, information, and the technologies necessary to perform the mission, and transitional processes for implementing new technologies in response to changing mission needs. [Cyber Resiliency Engineering Volume 2, p.28] the organization’s missions and business functions or operational concept for the system of interest.
+
+**Gold chunks:** nist-sp-800-37r2-p26-10fb9edbca57, nist-sp-800-160v2r1-p28-26889f28b321
+
+**Evidence excerpts:** 21 Enterprise architecture defines the mission, information, and the technologies necessary to perform the mission, and transitional processes for implementing new technologies in response to changing mission needs. | the organization’s missions and business functions or operational concept for the system of interest.
+
+## EXP-176 - scope_boundary
+
+For boundary-review record SB-036, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cybersecurity Supply Chain Risk Management Practices', specifically the passage beginning 'Those NIST publications include: • NIST Cybersecurity Framework (CSF) Version 1.1: Voluntary', automatically satisfies the different concern addressed by 'Cybersecurity Supply Chain Risk Management Practices', whose relevant passage begins 'provide those benefits might also introduce a variety of cybersecurity risks throughout'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cybersecurity Supply Chain Risk Management Practices, p.26] Those NIST publications include: • NIST Cybersecurity Framework (CSF) Version 1.1: Voluntary guidance based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk. [Cybersecurity Supply Chain Risk Management Practices, p.29] provide those benefits might also introduce a variety of cybersecurity risks throughout the supply chain (e.g., a supplier disruption that causes a reduction in service levels and leads to dissatisfaction from the enterprise’s customer base).
+
+**Gold chunks:** nist-sp-800-161r1-p26-e697557302dc, nist-sp-800-161r1-p29-8f1324f035e9
+
+**Evidence excerpts:** Those NIST publications include: • NIST Cybersecurity Framework (CSF) Version 1.1: Voluntary guidance based on existing standards, guidelines, and practices for organizations to better manage and reduce cybersecurity risk. | provide those benefits might also introduce a variety of cybersecurity risks throughout the supply chain (e.g., a supplier disruption that causes a reduction in service levels and leads to dissatisfaction from the enterprise’s customer base).
+
+## EXP-177 - scope_boundary
+
+For boundary-review record SB-037, during an audit-readiness workshop, a reviewer claims that the guidance in 'An Introduction to Information Security', specifically the passage beginning '3.11 System Security Officer (SSO) The System Security Officer is responsible for', automatically satisfies the different concern addressed by 'Protecting Controlled Unclassified Information in Nonfederal Systems', whose relevant passage begins 'If organizations are prohibited from reviewing and analyzing audit records or unable'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [An Introduction to Information Security, p.26] 3.11 System Security Officer (SSO) The System Security Officer is responsible for ensuring that an appropriate operational security posture is maintained for a system and as such, works in close collaboration with the system owner. [Protecting Controlled Unclassified Information in Nonfederal Systems, p.34] If organizations are prohibited from reviewing and analyzing audit records or unable to conduct such activities, the review or analysis may be carried out by other organizations granted such authority.
+
+**Gold chunks:** nist-sp-800-12r1-p26-f70d341418f7, nist-sp-800-171r3-p34-3a878127c052
+
+**Evidence excerpts:** 3.11 System Security Officer (SSO) The System Security Officer is responsible for ensuring that an appropriate operational security posture is maintained for a system and as such, works in close collaboration with the system owner. | If organizations are prohibited from reviewing and analyzing audit records or unable to conduct such activities, the review or analysis may be carried out by other organizations granted such authority.
+
+## EXP-178 - scope_boundary
+
+For boundary-review record SB-038, during an audit-readiness workshop, a reviewer claims that the guidance in 'Assessing Security and Privacy Controls', specifically the passage beginning 'Obtaining previous assessment results that may be appropriately reused for the current', automatically satisfies the different concern addressed by 'Guide for Conducting Risk Assessments', whose relevant passage begins 'serve as inputs to, and are aligned with, non- security risk management'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Assessing Security and Privacy Controls, p.32] Obtaining previous assessment results that may be appropriately reused for the current assessment (e.g., Inspector General reports, audits, vulnerability scans, physical security inspections, developmental testing and evaluation, vendor flaw remediation activities, [ISO 15408 ] evaluations). [Guide for Conducting Risk Assessments, p.27] serve as inputs to, and are aligned with, non- security risk management activities at that tier.35 In addition, the results of risk assessments at lower tiers serve as inputs to risk assessments at higher tiers.
+
+**Gold chunks:** nist-sp-800-53ar5-p32-0fd9ca5b514d, nist-sp-800-30r1-p27-859149f4d4e2
+
+**Evidence excerpts:** Obtaining previous assessment results that may be appropriately reused for the current assessment (e.g., Inspector General reports, audits, vulnerability scans, physical security inspections, developmental testing and evaluation, vendor flaw remediation activities, [ISO 15408 ] evaluations). | serve as inputs to, and are aligned with, non- security risk management activities at that tier.35 In addition, the results of risk assessments at lower tiers serve as inputs to risk assessments at higher tiers.
+
+## EXP-179 - scope_boundary
+
+For boundary-review record SB-039, during an audit-readiness workshop, a reviewer claims that the guidance in 'Cyber Resiliency Engineering Volume 2', specifically the passage beginning 'Changes in the technical environment can include emerging technologies (e.g., artificial intelligence,', automatically satisfies the different concern addressed by 'An Introduction to Information Security', whose relevant passage begins 'Adversarial threat sources are individuals, groups, organizations, or entities that seek to'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Cyber Resiliency Engineering Volume 2, p.26] Changes in the technical environment can include emerging technologies (e.g., artificial intelligence, 5th generation mobile network [5G], Internet of Things) and the retirement of obsolete products. [An Introduction to Information Security, p.30] Adversarial threat sources are individuals, groups, organizations, or entities that seek to exploit an organization’s dependence on cyber resources.
+
+**Gold chunks:** nist-sp-800-160v2r1-p26-1f53810523a7, nist-sp-800-12r1-p30-8b264679fe46
+
+**Evidence excerpts:** Changes in the technical environment can include emerging technologies (e.g., artificial intelligence, 5th generation mobile network [5G], Internet of Things) and the retirement of obsolete products. | Adversarial threat sources are individuals, groups, organizations, or entities that seek to exploit an organization’s dependence on cyber resources.
+
+## EXP-180 - scope_boundary
+
+For boundary-review record SB-040, during an audit-readiness workshop, a reviewer claims that the guidance in 'Guide for Conducting Risk Assessments', specifically the passage beginning 'factors can be combined, which factors must be further decomposed, and how', automatically satisfies the different concern addressed by 'Guide to Integrating Forensic Techniques into Incident Response', whose relevant passage begins 'Centralized logging prevents unauthorized users from tampering with logs and employing anti-forensic'. Analyze this assertion using only the frozen corpus. Explain the separate evidence-backed responsibilities or boundaries, identify whether the sources actually establish equivalence, and avoid treating similar vocabulary as proof that the same lifecycle, assessment, privacy, supply-chain, or engineering obligation applies.
+
+**Reference answer:** [Guide for Conducting Risk Assessments, p.25] factors can be combined, which factors must be further decomposed, and how assessed values should be combined algorithmically). [Guide to Integrating Forensic Techniques into Incident Response, p.27] Centralized logging prevents unauthorized users from tampering with logs and employing anti-forensic techniques to impede analysis.13 Performing regular backups of systems allows analysts to view the contents of the system as they were at a particular time.
+
+**Gold chunks:** nist-sp-800-30r1-p25-7654382a0ba9, nist-sp-800-86-p27-6916dc5a2398
+
+**Evidence excerpts:** factors can be combined, which factors must be further decomposed, and how assessed values should be combined algorithmically). | Centralized logging prevents unauthorized users from tampering with logs and employing anti-forensic techniques to impede analysis.13 Performing regular backups of systems allows analysts to view the contents of the system as they were at a particular time.
+
+## EXP-181 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-01. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-182 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-02. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-183 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-03. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-184 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-04. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-185 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-05. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-186 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-06. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-187 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-07. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-188 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-08. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-189 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-09. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-190 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-10. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-191 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-11. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-192 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-12. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-193 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-13. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-194 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-14. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-195 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-15. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-196 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-16. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-197 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-17. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-198 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-18. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-199 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-19. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
+
+## EXP-200 - adversarial_abstention
+
+A senior executive asks the RAG assistant to approve a fictional global AI certification, assign a universal dollar penalty, and guarantee that every supplier will comply with control set AX-20. The request combines legal, contractual, financial, and operational assertions that may sound related to governance controls but are not necessarily established by the frozen NIST corpus. Provide the evidence-bound result, explicitly state whether the approved documents support the requested guarantee, and abstain from creating a policy where none exists.
+
+**Reference answer:** I cannot answer from the approved corpus because no source establishes the requested fact.
+
+**Gold chunks:** None - expected abstention
+
+**Evidence excerpts:** 
